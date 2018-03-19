@@ -1,0 +1,254 @@
+--------------------------------------------------------------------------------
+Command:            a.out
+Massif arguments:   (none)
+ms_print arguments: massif.out.20008
+--------------------------------------------------------------------------------
+
+
+    MB
+4.883^                                                                       #
+     |                  :::::::::::::::::::::::::::::::::::::::::::::::::::::#
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  @                                                    #
+     |    ::::::::::::::@                                                    #
+     |    :             @                                                    #
+     |    :             @                                                    #
+     |    :             @                                                    #
+     |    @             @                                                    #
+     | @@@@             @                                                    #
+     | @  @             @                                                    #
+     |:@  @             @                                                    #
+     |@@  @             @                                                    #
+   0 +----------------------------------------------------------------------->Gi
+     0                                                                   111.9
+
+Number of snapshots: 74
+ Detailed snapshots: [2, 4, 5, 6, 8, 11, 15, 16, 20, 23, 44 (peak), 56, 66]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1        200,712           39,608           23,752        15,856            0
+  2      5,749,599           40,088           24,040        16,048            0
+59.97% (24,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.87% (24,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->59.87% (24,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->59.87% (24,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->59.87% (24,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.10% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  3      6,028,281           79,128           47,464        31,664            0
+  4     28,114,752           80,088           48,040        32,048            0
+59.98% (48,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.93% (48,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->59.93% (48,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->59.93% (48,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->59.93% (48,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.05% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  5     28,674,949          159,328           95,584        63,744            0
+59.99% (95,584B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.97% (95,544B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->59.97% (95,544B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->59.97% (95,544B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->59.97% (95,544B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.03% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  6    116,841,962          160,088           96,040        64,048            0
+59.99% (96,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.97% (96,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->59.97% (96,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->59.97% (96,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->59.97% (96,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.02% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  7    117,953,962          315,368          189,208       126,160            0
+  8    470,293,399          320,088          192,040       128,048            0
+60.00% (192,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.98% (192,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->59.98% (192,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->59.98% (192,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->59.98% (192,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.01% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  9    471,375,284          187,168          112,288        74,880            0
+ 10    472,509,005          627,448          376,456       250,992            0
+ 11  1,881,193,059          640,088          384,040       256,048            0
+60.00% (384,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.99% (384,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->59.99% (384,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->59.99% (384,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->59.99% (384,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.01% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 12  1,881,993,459          213,168          127,888        85,280            0
+ 13  1,883,276,747          343,208          205,912       137,296            0
+ 14  1,884,832,459          947,368          568,408       378,960            0
+ 15  1,885,610,315        1,249,448          749,656       499,792            0
+60.00% (749,656B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (749,616B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->60.00% (749,616B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->60.00% (749,616B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->60.00% (749,616B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.00% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 16  7,518,988,746        1,280,088          768,040       512,048            0
+60.00% (768,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (768,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->60.00% (768,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->60.00% (768,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->60.00% (768,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.00% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 17  7,520,545,146          449,968          269,968       180,000            0
+ 18  7,521,809,346          163,368           98,008        65,360            0
+ 19  7,523,365,058          767,528          460,504       307,024            0
+ 20  7,524,920,770        1,371,688          823,000       548,688            0
+60.00% (823,000B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (822,960B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->60.00% (822,960B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->60.00% (822,960B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->60.00% (822,960B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.00% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 21  7,526,476,482        1,975,848        1,185,496       790,352            0
+ 22  7,527,837,730        2,504,488        1,502,680     1,001,808            0
+ 23 30,058,576,665        2,560,088        1,536,040     1,024,048            0
+60.00% (1,536,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (1,536,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->60.00% (1,536,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->60.00% (1,536,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->60.00% (1,536,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.00% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 24 30,060,132,465        1,730,288        1,038,160       692,128            0
+ 25 30,061,104,840        1,211,688          727,000       484,688            0
+ 26 30,061,907,940          783,368          470,008       313,360            0
+ 27 30,062,711,040          355,048          213,016       142,032            0
+ 28 30,063,514,118           53,408           32,032        21,376            0
+ 29 30,065,120,094          677,088          406,240       270,848            0
+ 30 30,065,923,082          988,928          593,344       395,584            0
+ 31 30,066,726,070        1,300,768          780,448       520,320            0
+ 32 30,067,529,058        1,612,608          967,552       645,056            0
+ 33 30,068,332,046        1,924,448        1,154,656       769,792            0
+ 34 30,069,135,034        2,236,288        1,341,760       894,528            0
+ 35 30,069,938,022        2,548,128        1,528,864     1,019,264            0
+ 36 30,070,741,010        2,859,968        1,715,968     1,144,000            0
+ 37 30,071,543,998        3,171,808        1,903,072     1,268,736            0
+ 38 30,072,346,986        3,483,648        2,090,176     1,393,472            0
+ 39 30,073,149,974        3,795,488        2,277,280     1,518,208            0
+ 40 30,073,952,962        4,107,328        2,464,384     1,642,944            0
+ 41 30,074,755,950        4,419,168        2,651,488     1,767,680            0
+ 42 30,075,558,938        4,731,008        2,838,592     1,892,416            0
+ 43 30,076,361,926        5,042,848        3,025,696     2,017,152            0
+ 44 120,193,748,823        5,120,088        3,072,040     2,048,048            0
+60.00% (3,072,040B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (3,072,000B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->60.00% (3,072,000B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->60.00% (3,072,000B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->60.00% (3,072,000B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.00% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 45 120,194,551,923        4,691,728        2,815,024     1,876,704            0
+ 46 120,195,355,023        4,263,408        2,558,032     1,705,376            0
+ 47 120,196,158,123        3,835,088        2,301,040     1,534,048            0
+ 48 120,196,961,223        3,406,768        2,044,048     1,362,720            0
+ 49 120,198,366,648        2,657,208        1,594,312     1,062,896            0
+ 50 120,198,567,423        2,550,128        1,530,064     1,020,064            0
+ 51 120,198,768,198        2,443,048        1,465,816       977,232            0
+ 52 120,198,968,973        2,335,968        1,401,568       934,400            0
+ 53 120,199,169,748        2,228,888        1,337,320       891,568            0
+ 54 120,199,370,523        2,121,808        1,273,072       848,736            0
+ 55 120,199,571,298        2,014,728        1,208,824       805,904            0
+ 56 120,199,772,073        1,907,648        1,144,576       763,072            0
+60.00% (1,144,576B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (1,144,536B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->60.00% (1,144,536B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->60.00% (1,144,536B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->60.00% (1,144,536B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.00% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 57 120,199,972,848        1,800,568        1,080,328       720,240            0
+ 58 120,200,173,623        1,693,488        1,016,080       677,408            0
+ 59 120,200,374,398        1,586,408          951,832       634,576            0
+ 60 120,200,575,173        1,479,328          887,584       591,744            0
+ 61 120,200,775,948        1,372,248          823,336       548,912            0
+ 62 120,200,976,723        1,265,168          759,088       506,080            0
+ 63 120,201,177,498        1,158,088          694,840       463,248            0
+ 64 120,201,378,273        1,051,008          630,592       420,416            0
+ 65 120,201,579,048          943,928          566,344       377,584            0
+ 66 120,201,779,823          836,848          502,096       334,752            0
+60.00% (502,096B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.99% (502,056B) 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+| ->59.99% (502,056B) 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|   ->59.99% (502,056B) 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|     ->59.99% (502,056B) 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+|       
+->00.00% (40B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 67 120,201,980,598          729,768          437,848       291,920            0
+ 68 120,202,181,373          622,688          373,600       249,088            0
+ 69 120,202,382,148          515,608          309,352       206,256            0
+ 70 120,202,582,923          408,528          245,104       163,424            0
+ 71 120,202,783,698          301,448          180,856       120,592            0
+ 72 120,202,984,473          194,368          116,608        77,760            0
+ 73 120,203,185,248           87,288           52,360        34,928            0

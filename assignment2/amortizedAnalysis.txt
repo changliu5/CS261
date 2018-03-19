@@ -1,0 +1,5 @@
+Push 16 items into a 8 space array cost 16+8 = 32 units, Push 32 items cost 32+8+16 = 56 units. O(1+).
+
+Push 16 items cost 72 units, 32 items cost 260 units. O(n).
+
+If you are going to push 16 consecutive push operations on an empty array which starts out at capacity 8, anytime you push 9 elements, you pop 1 element, than the big oh will be O(n^2). You can change the shrinking policy to shrink when array is 30% full or less.

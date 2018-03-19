@@ -1,0 +1,473 @@
+desc: (none)
+cmd: a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1139279
+mem_heap_B=96040
+mem_heap_extra_B=64048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 96040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 96000 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 96000 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 96000 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 96000 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=2
+#-----------
+time=2130885
+mem_heap_B=134488
+mem_heap_extra_B=89680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=3237890
+mem_heap_B=7696
+mem_heap_extra_B=5152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=4207120
+mem_heap_B=233536
+mem_heap_extra_B=155712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=5767886
+mem_heap_B=170896
+mem_heap_extra_B=113952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=6859869
+mem_heap_B=82912
+mem_heap_extra_B=55296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=8278797
+mem_heap_B=413536
+mem_heap_extra_B=275712
+mem_stacks_B=0
+heap_tree=detailed
+n2: 413536 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 413496 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 413496 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 413496 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 413496 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=8
+#-----------
+time=9800423
+mem_heap_B=768040
+mem_heap_extra_B=512048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 768040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 768000 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 768000 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 768000 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 768000 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=9
+#-----------
+time=11350985
+mem_heap_B=406720
+mem_heap_extra_B=271168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=12586985
+mem_heap_B=118720
+mem_heap_extra_B=79168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=13205064
+mem_heap_B=24664
+mem_heap_extra_B=16464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=14441064
+mem_heap_B=312664
+mem_heap_extra_B=208464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=15677064
+mem_heap_B=600664
+mem_heap_extra_B=400464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=16913064
+mem_heap_B=888664
+mem_heap_extra_B=592464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=18149064
+mem_heap_B=1176664
+mem_heap_extra_B=784464
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1176664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1176624 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 1176624 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 1176624 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 1176624 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=16
+#-----------
+time=19691599
+mem_heap_B=1536040
+mem_heap_extra_B=1024048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1536040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1536000 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 1536000 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 1536000 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 1536000 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=17
+#-----------
+time=20606239
+mem_heap_B=1322896
+mem_heap_extra_B=881952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=21520879
+mem_heap_B=1109776
+mem_heap_extra_B=739872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=22435519
+mem_heap_B=896656
+mem_heap_extra_B=597792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=23350159
+mem_heap_B=683536
+mem_heap_extra_B=455712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=24264799
+mem_heap_B=470416
+mem_heap_extra_B=313632
+mem_stacks_B=0
+heap_tree=detailed
+n2: 470416 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 470376 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 470376 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 470376 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 470376 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=22
+#-----------
+time=25179439
+mem_heap_B=257296
+mem_heap_extra_B=171552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=26322818
+mem_heap_B=8488
+mem_heap_extra_B=5680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=27237458
+mem_heap_B=221608
+mem_heap_extra_B=147760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=28152098
+mem_heap_B=434728
+mem_heap_extra_B=289840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=29066738
+mem_heap_B=647848
+mem_heap_extra_B=431920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=29981378
+mem_heap_B=860968
+mem_heap_extra_B=574000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=31680466
+mem_heap_B=1256872
+mem_heap_extra_B=837936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=33379554
+mem_heap_B=1652776
+mem_heap_extra_B=1101872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=34229098
+mem_heap_B=1850728
+mem_heap_extra_B=1233840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=35078642
+mem_heap_B=2048680
+mem_heap_extra_B=1365808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=35928186
+mem_heap_B=2246632
+mem_heap_extra_B=1497776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=36777730
+mem_heap_B=2444584
+mem_heap_extra_B=1629744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=37627274
+mem_heap_B=2642536
+mem_heap_extra_B=1761712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=38476818
+mem_heap_B=2840488
+mem_heap_extra_B=1893680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=39470775
+mem_heap_B=3072040
+mem_heap_extra_B=2048048
+mem_stacks_B=0
+heap_tree=peak
+n2: 3072040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3072000 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 3072000 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 3072000 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 3072000 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=37
+#-----------
+time=40320319
+mem_heap_B=2874064
+mem_heap_extra_B=1916064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=41169863
+mem_heap_B=2676112
+mem_heap_extra_B=1784096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=42019407
+mem_heap_B=2478160
+mem_heap_extra_B=1652128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=42868951
+mem_heap_B=2280208
+mem_heap_extra_B=1520160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=43718495
+mem_heap_B=2082256
+mem_heap_extra_B=1388192
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2082256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2082216 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 2082216 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 2082216 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 2082216 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=42
+#-----------
+time=44568039
+mem_heap_B=1884304
+mem_heap_extra_B=1256224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=45417583
+mem_heap_B=1686352
+mem_heap_extra_B=1124256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=46267127
+mem_heap_B=1488400
+mem_heap_extra_B=992288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=47116671
+mem_heap_B=1290448
+mem_heap_extra_B=860320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=47966215
+mem_heap_B=1092496
+mem_heap_extra_B=728352
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1092496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1092456 0x40072D: _addLinkBefore (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 1092456 0x400A51: addBackList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n1: 1092456 0x400BC1: addList (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+    n0: 1092456 0x400D31: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 40 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=47
+#-----------
+time=48815759
+mem_heap_B=894544
+mem_heap_extra_B=596384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=49665303
+mem_heap_B=696592
+mem_heap_extra_B=464416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=50939619
+mem_heap_B=399664
+mem_heap_extra_B=266464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=51557722
+mem_heap_B=255640
+mem_heap_extra_B=170448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=52175825
+mem_heap_B=111616
+mem_heap_extra_B=74432
+mem_stacks_B=0
+heap_tree=empty

@@ -1,0 +1,1883 @@
+desc: (none)
+cmd: prog
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=21084066
+mem_heap_B=472120
+mem_heap_extra_B=314744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=42351724
+mem_heap_B=894304
+mem_heap_extra_B=596200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=76465792
+mem_heap_B=1535296
+mem_heap_extra_B=1023528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=90875619
+mem_heap_B=1799080
+mem_heap_extra_B=1199384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=112762582
+mem_heap_B=2193952
+mem_heap_extra_B=1462632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=133657924
+mem_heap_B=2565280
+mem_heap_extra_B=1710184
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2565280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2565264 0x40079F: _addNode (bst.c:130)
+  n3: 1284336 0x40081D: _addNode (bst.c:138)
+   n3: 644712 0x40083E: _addNode (bst.c:140)
+    n3: 325968 0x40081D: _addNode (bst.c:138)
+     n3: 163704 0x40081D: _addNode (bst.c:138)
+      n1: 82608 0x40081D: _addNode (bst.c:138)
+       n0: 82608 in 3 places, all below massif's threshold (01.00%)
+      n1: 81072 0x40083E: _addNode (bst.c:140)
+       n0: 81072 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 162240 0x40083E: _addNode (bst.c:140)
+      n2: 83592 0x40081D: _addNode (bst.c:138)
+       n1: 42768 0x40081D: _addNode (bst.c:138)
+        n0: 42768 in 3 places, all below massif's threshold (01.00%)
+       n0: 40824 in 2 places, all below massif's threshold (01.00%)
+      n1: 78624 0x40083E: _addNode (bst.c:140)
+       n0: 78624 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 318720 0x40083E: _addNode (bst.c:140)
+     n3: 161136 0x40081D: _addNode (bst.c:138)
+      n1: 81600 0x40081D: _addNode (bst.c:138)
+       n0: 81600 in 3 places, all below massif's threshold (01.00%)
+      n1: 79512 0x40083E: _addNode (bst.c:140)
+       n0: 79512 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 157560 0x40083E: _addNode (bst.c:140)
+      n1: 78960 0x40083E: _addNode (bst.c:140)
+       n0: 78960 in 3 places, all below massif's threshold (01.00%)
+      n1: 78576 0x40081D: _addNode (bst.c:138)
+       n0: 78576 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 639600 0x40081D: _addNode (bst.c:138)
+    n3: 319920 0x40083E: _addNode (bst.c:140)
+     n3: 161256 0x40081D: _addNode (bst.c:138)
+      n1: 81960 0x40081D: _addNode (bst.c:138)
+       n0: 81960 in 3 places, all below massif's threshold (01.00%)
+      n1: 79272 0x40083E: _addNode (bst.c:140)
+       n0: 79272 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 158640 0x40083E: _addNode (bst.c:140)
+      n1: 79896 0x40083E: _addNode (bst.c:140)
+       n0: 79896 in 3 places, all below massif's threshold (01.00%)
+      n1: 78720 0x40081D: _addNode (bst.c:138)
+       n0: 78720 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 319656 0x40081D: _addNode (bst.c:138)
+     n3: 160704 0x40081D: _addNode (bst.c:138)
+      n1: 81096 0x40081D: _addNode (bst.c:138)
+       n0: 81096 in 2 places, all below massif's threshold (01.00%)
+      n1: 79584 0x40083E: _addNode (bst.c:140)
+       n0: 79584 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 158928 0x40083E: _addNode (bst.c:140)
+      n1: 80232 0x40081D: _addNode (bst.c:138)
+       n0: 80232 in 3 places, all below massif's threshold (01.00%)
+      n1: 78672 0x40083E: _addNode (bst.c:140)
+       n0: 78672 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 1280904 0x40083E: _addNode (bst.c:140)
+   n3: 641856 0x40081D: _addNode (bst.c:138)
+    n3: 322488 0x40081D: _addNode (bst.c:138)
+     n3: 161808 0x40081D: _addNode (bst.c:138)
+      n1: 81696 0x40081D: _addNode (bst.c:138)
+       n0: 81696 in 3 places, all below massif's threshold (01.00%)
+      n1: 80088 0x40083E: _addNode (bst.c:140)
+       n0: 80088 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 160656 0x40083E: _addNode (bst.c:140)
+      n1: 80784 0x40081D: _addNode (bst.c:138)
+       n0: 80784 in 3 places, all below massif's threshold (01.00%)
+      n1: 79848 0x40083E: _addNode (bst.c:140)
+       n0: 79848 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 319344 0x40083E: _addNode (bst.c:140)
+     n3: 163800 0x40081D: _addNode (bst.c:138)
+      n1: 83256 0x40081D: _addNode (bst.c:138)
+       n0: 83256 in 3 places, all below massif's threshold (01.00%)
+      n1: 80520 0x40083E: _addNode (bst.c:140)
+       n0: 80520 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 155520 0x40083E: _addNode (bst.c:140)
+      n1: 78216 0x40083E: _addNode (bst.c:140)
+       n0: 78216 in 3 places, all below massif's threshold (01.00%)
+      n1: 77280 0x40081D: _addNode (bst.c:138)
+       n0: 77280 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 639024 0x40083E: _addNode (bst.c:140)
+    n3: 321720 0x40081D: _addNode (bst.c:138)
+     n3: 161784 0x40081D: _addNode (bst.c:138)
+      n1: 83064 0x40081D: _addNode (bst.c:138)
+       n0: 83064 in 3 places, all below massif's threshold (01.00%)
+      n1: 78696 0x40083E: _addNode (bst.c:140)
+       n0: 78696 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 159912 0x40083E: _addNode (bst.c:140)
+      n1: 81744 0x40081D: _addNode (bst.c:138)
+       n0: 81744 in 3 places, all below massif's threshold (01.00%)
+      n1: 78144 0x40083E: _addNode (bst.c:140)
+       n0: 78144 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 317280 0x40083E: _addNode (bst.c:140)
+     n3: 160680 0x40081D: _addNode (bst.c:138)
+      n1: 81336 0x40083E: _addNode (bst.c:140)
+       n0: 81336 in 3 places, all below massif's threshold (01.00%)
+      n1: 79320 0x40081D: _addNode (bst.c:138)
+       n0: 79320 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 156576 0x40083E: _addNode (bst.c:140)
+      n1: 78528 0x40081D: _addNode (bst.c:138)
+       n0: 78528 in 3 places, all below massif's threshold (01.00%)
+      n1: 78024 0x40083E: _addNode (bst.c:140)
+       n0: 78024 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=7
+#-----------
+time=152200412
+mem_heap_B=2891752
+mem_heap_extra_B=1927832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=183105969
+mem_heap_B=3428536
+mem_heap_extra_B=2285688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=206282092
+mem_heap_B=3826216
+mem_heap_extra_B=2550808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=233257791
+mem_heap_B=4286056
+mem_heap_extra_B=2857368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=263048124
+mem_heap_B=4789120
+mem_heap_extra_B=3192744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=287869861
+mem_heap_B=5205208
+mem_heap_extra_B=3470136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=305246825
+mem_heap_B=5495872
+mem_heap_extra_B=3663912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=335034196
+mem_heap_B=5991088
+mem_heap_extra_B=3994056
+mem_stacks_B=0
+heap_tree=detailed
+n2: 5991088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 5991072 0x40079F: _addNode (bst.c:130)
+  n3: 3000048 0x40081D: _addNode (bst.c:138)
+   n3: 1500408 0x40081D: _addNode (bst.c:138)
+    n3: 750912 0x40081D: _addNode (bst.c:138)
+     n3: 376056 0x40083E: _addNode (bst.c:140)
+      n1: 188904 0x40081D: _addNode (bst.c:138)
+       n0: 188904 in 3 places, all below massif's threshold (01.00%)
+      n1: 187128 0x40083E: _addNode (bst.c:140)
+       n0: 187128 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 374832 0x40081D: _addNode (bst.c:138)
+      n1: 188232 0x40081D: _addNode (bst.c:138)
+       n0: 188232 in 3 places, all below massif's threshold (01.00%)
+      n1: 186576 0x40083E: _addNode (bst.c:140)
+       n0: 186576 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 749472 0x40083E: _addNode (bst.c:140)
+     n3: 375912 0x40081D: _addNode (bst.c:138)
+      n1: 188208 0x40081D: _addNode (bst.c:138)
+       n0: 188208 in 3 places, all below massif's threshold (01.00%)
+      n1: 187680 0x40083E: _addNode (bst.c:140)
+       n0: 187680 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 373536 0x40083E: _addNode (bst.c:140)
+      n1: 186792 0x40083E: _addNode (bst.c:140)
+       n0: 186792 in 3 places, all below massif's threshold (01.00%)
+      n1: 186720 0x40081D: _addNode (bst.c:138)
+       n0: 186720 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1499616 0x40083E: _addNode (bst.c:140)
+    n3: 750768 0x40081D: _addNode (bst.c:138)
+     n3: 376800 0x40083E: _addNode (bst.c:140)
+      n1: 191904 0x40081D: _addNode (bst.c:138)
+       n0: 191904 in 3 places, all below massif's threshold (01.00%)
+      n1: 184872 0x40083E: _addNode (bst.c:140)
+       n0: 184872 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 373944 0x40081D: _addNode (bst.c:138)
+      n1: 186984 0x40083E: _addNode (bst.c:140)
+       n0: 186984 in 3 places, all below massif's threshold (01.00%)
+      n1: 186936 0x40081D: _addNode (bst.c:138)
+       n0: 186936 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 748824 0x40083E: _addNode (bst.c:140)
+     n3: 375600 0x40081D: _addNode (bst.c:138)
+      n1: 188328 0x40081D: _addNode (bst.c:138)
+       n0: 188328 in 3 places, all below massif's threshold (01.00%)
+      n1: 187248 0x40083E: _addNode (bst.c:140)
+       n0: 187248 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 373200 0x40083E: _addNode (bst.c:140)
+      n1: 186816 0x40081D: _addNode (bst.c:138)
+       n0: 186816 in 3 places, all below massif's threshold (01.00%)
+      n1: 186360 0x40083E: _addNode (bst.c:140)
+       n0: 186360 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 2991000 0x40083E: _addNode (bst.c:140)
+   n3: 1497432 0x40081D: _addNode (bst.c:138)
+    n3: 750720 0x40083E: _addNode (bst.c:140)
+     n3: 377856 0x40081D: _addNode (bst.c:138)
+      n1: 189096 0x40083E: _addNode (bst.c:140)
+       n0: 189096 in 3 places, all below massif's threshold (01.00%)
+      n1: 188736 0x40081D: _addNode (bst.c:138)
+       n0: 188736 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 372840 0x40083E: _addNode (bst.c:140)
+      n1: 186960 0x40081D: _addNode (bst.c:138)
+       n0: 186960 in 3 places, all below massif's threshold (01.00%)
+      n1: 185856 0x40083E: _addNode (bst.c:140)
+       n0: 185856 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 746688 0x40081D: _addNode (bst.c:138)
+     n3: 373368 0x40081D: _addNode (bst.c:138)
+      n1: 187680 0x40081D: _addNode (bst.c:138)
+       n0: 187680 in 3 places, all below massif's threshold (01.00%)
+      n1: 185664 0x40083E: _addNode (bst.c:140)
+       n0: 185664 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 373296 0x40083E: _addNode (bst.c:140)
+      n1: 187608 0x40081D: _addNode (bst.c:138)
+       n0: 187608 in 3 places, all below massif's threshold (01.00%)
+      n1: 185664 0x40083E: _addNode (bst.c:140)
+       n0: 185664 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1493544 0x40083E: _addNode (bst.c:140)
+    n3: 747360 0x40081D: _addNode (bst.c:138)
+     n3: 374256 0x40081D: _addNode (bst.c:138)
+      n1: 187776 0x40081D: _addNode (bst.c:138)
+       n0: 187776 in 3 places, all below massif's threshold (01.00%)
+      n1: 186456 0x40083E: _addNode (bst.c:140)
+       n0: 186456 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 373080 0x40083E: _addNode (bst.c:140)
+      n1: 190080 0x40081D: _addNode (bst.c:138)
+       n0: 190080 in 3 places, all below massif's threshold (01.00%)
+      n1: 182976 0x40083E: _addNode (bst.c:140)
+       n0: 182976 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 746160 0x40083E: _addNode (bst.c:140)
+     n3: 373752 0x40081D: _addNode (bst.c:138)
+      n1: 187224 0x40081D: _addNode (bst.c:138)
+       n0: 187224 in 3 places, all below massif's threshold (01.00%)
+      n1: 186504 0x40083E: _addNode (bst.c:140)
+       n0: 186504 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 372384 0x40083E: _addNode (bst.c:140)
+      n1: 186864 0x40081D: _addNode (bst.c:138)
+       n0: 186864 in 3 places, all below massif's threshold (01.00%)
+      n1: 185496 0x40083E: _addNode (bst.c:140)
+       n0: 185496 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=15
+#-----------
+time=359866383
+mem_heap_B=6400792
+mem_heap_extra_B=4267192
+mem_stacks_B=0
+heap_tree=detailed
+n2: 6400792 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 6400776 0x40079F: _addNode (bst.c:130)
+  n3: 3204552 0x40081D: _addNode (bst.c:138)
+   n3: 1603128 0x40081D: _addNode (bst.c:138)
+    n3: 803184 0x40081D: _addNode (bst.c:138)
+     n3: 401928 0x40081D: _addNode (bst.c:138)
+      n1: 201144 0x40083E: _addNode (bst.c:140)
+       n0: 201144 in 3 places, all below massif's threshold (01.00%)
+      n1: 200760 0x40081D: _addNode (bst.c:138)
+       n0: 200760 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 401232 0x40083E: _addNode (bst.c:140)
+      n1: 201960 0x40081D: _addNode (bst.c:138)
+       n0: 201960 in 3 places, all below massif's threshold (01.00%)
+      n1: 199248 0x40083E: _addNode (bst.c:140)
+       n0: 199248 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 799920 0x40083E: _addNode (bst.c:140)
+     n3: 401184 0x40081D: _addNode (bst.c:138)
+      n1: 200640 0x40081D: _addNode (bst.c:138)
+       n0: 200640 in 3 places, all below massif's threshold (01.00%)
+      n1: 200520 0x40083E: _addNode (bst.c:140)
+       n0: 200520 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 398712 0x40083E: _addNode (bst.c:140)
+      n1: 200112 0x40083E: _addNode (bst.c:140)
+       n0: 200112 in 3 places, all below massif's threshold (01.00%)
+      n1: 198576 0x40081D: _addNode (bst.c:138)
+       n0: 198576 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1601400 0x40083E: _addNode (bst.c:140)
+    n3: 800808 0x40081D: _addNode (bst.c:138)
+     n3: 401736 0x40083E: _addNode (bst.c:140)
+      n1: 204576 0x40081D: _addNode (bst.c:138)
+       n0: 204576 in 3 places, all below massif's threshold (01.00%)
+      n1: 197136 0x40083E: _addNode (bst.c:140)
+       n0: 197136 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 399048 0x40081D: _addNode (bst.c:138)
+      n1: 199752 0x40083E: _addNode (bst.c:140)
+       n0: 199752 in 3 places, all below massif's threshold (01.00%)
+      n1: 199272 0x40081D: _addNode (bst.c:138)
+       n0: 199272 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 800568 0x40083E: _addNode (bst.c:140)
+     n3: 402264 0x40081D: _addNode (bst.c:138)
+      n1: 201504 0x40081D: _addNode (bst.c:138)
+       n0: 201504 in 3 places, all below massif's threshold (01.00%)
+      n1: 200736 0x40083E: _addNode (bst.c:140)
+       n0: 200736 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 398280 0x40083E: _addNode (bst.c:140)
+      n1: 199176 0x40083E: _addNode (bst.c:140)
+       n0: 199176 in 3 places, all below massif's threshold (01.00%)
+      n1: 199080 0x40081D: _addNode (bst.c:138)
+       n0: 199080 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 3196200 0x40083E: _addNode (bst.c:140)
+   n3: 1601496 0x40081D: _addNode (bst.c:138)
+    n3: 802920 0x40083E: _addNode (bst.c:140)
+     n3: 403056 0x40081D: _addNode (bst.c:138)
+      n1: 201528 0x40083E: _addNode (bst.c:140)
+       n0: 201528 in 3 places, all below massif's threshold (01.00%)
+      n1: 201504 0x40081D: _addNode (bst.c:138)
+       n0: 201504 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 399840 0x40083E: _addNode (bst.c:140)
+      n1: 200808 0x40081D: _addNode (bst.c:138)
+       n0: 200808 in 3 places, all below massif's threshold (01.00%)
+      n1: 199008 0x40083E: _addNode (bst.c:140)
+       n0: 199008 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 798552 0x40081D: _addNode (bst.c:138)
+     n3: 399816 0x40081D: _addNode (bst.c:138)
+      n1: 201048 0x40081D: _addNode (bst.c:138)
+       n0: 201048 in 3 places, all below massif's threshold (01.00%)
+      n1: 198744 0x40083E: _addNode (bst.c:140)
+       n0: 198744 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 398712 0x40083E: _addNode (bst.c:140)
+      n1: 200736 0x40081D: _addNode (bst.c:138)
+       n0: 200736 in 3 places, all below massif's threshold (01.00%)
+      n1: 197952 0x40083E: _addNode (bst.c:140)
+       n0: 197952 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1594680 0x40083E: _addNode (bst.c:140)
+    n3: 798504 0x40081D: _addNode (bst.c:138)
+     n3: 399312 0x40081D: _addNode (bst.c:138)
+      n1: 199848 0x40083E: _addNode (bst.c:140)
+       n0: 199848 in 3 places, all below massif's threshold (01.00%)
+      n1: 199440 0x40081D: _addNode (bst.c:138)
+       n0: 199440 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 399168 0x40083E: _addNode (bst.c:140)
+      n1: 203040 0x40081D: _addNode (bst.c:138)
+       n0: 203040 in 3 places, all below massif's threshold (01.00%)
+      n1: 196104 0x40083E: _addNode (bst.c:140)
+       n0: 196104 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 796152 0x40083E: _addNode (bst.c:140)
+     n3: 398256 0x40081D: _addNode (bst.c:138)
+      n1: 199488 0x40081D: _addNode (bst.c:138)
+       n0: 199488 in 3 places, all below massif's threshold (01.00%)
+      n1: 198744 0x40083E: _addNode (bst.c:140)
+       n0: 198744 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 397872 0x40083E: _addNode (bst.c:140)
+      n1: 199632 0x40081D: _addNode (bst.c:138)
+       n0: 199632 in 3 places, all below massif's threshold (01.00%)
+      n1: 198216 0x40083E: _addNode (bst.c:140)
+       n0: 198216 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=16
+#-----------
+time=387186703
+mem_heap_B=6849760
+mem_heap_extra_B=4566504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=402087656
+mem_heap_B=7093936
+mem_heap_extra_B=4729288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=421958105
+mem_heap_B=7418464
+mem_heap_extra_B=4945640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=436857693
+mem_heap_B=7661176
+mem_heap_extra_B=5107448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=894510078
+mem_heap_B=7680016
+mem_heap_extra_B=5120008
+mem_stacks_B=0
+heap_tree=peak
+n2: 7680016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 7680000 0x40079F: _addNode (bst.c:130)
+  n3: 3846624 0x40081D: _addNode (bst.c:138)
+   n3: 1923984 0x40081D: _addNode (bst.c:138)
+    n3: 963624 0x40081D: _addNode (bst.c:138)
+     n3: 483024 0x40081D: _addNode (bst.c:138)
+      n1: 241680 0x40081D: _addNode (bst.c:138)
+       n0: 241680 in 3 places, all below massif's threshold (01.00%)
+      n1: 241320 0x40083E: _addNode (bst.c:140)
+       n0: 241320 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 480576 0x40083E: _addNode (bst.c:140)
+      n1: 242496 0x40081D: _addNode (bst.c:138)
+       n0: 242496 in 3 places, all below massif's threshold (01.00%)
+      n1: 238056 0x40083E: _addNode (bst.c:140)
+       n0: 238056 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 960336 0x40083E: _addNode (bst.c:140)
+     n3: 480360 0x40083E: _addNode (bst.c:140)
+      n1: 241824 0x40083E: _addNode (bst.c:140)
+       n0: 241824 in 3 places, all below massif's threshold (01.00%)
+      n1: 238512 0x40081D: _addNode (bst.c:138)
+       n0: 238512 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 479952 0x40081D: _addNode (bst.c:138)
+      n1: 240360 0x40083E: _addNode (bst.c:140)
+       n0: 240360 in 3 places, all below massif's threshold (01.00%)
+      n1: 239568 0x40081D: _addNode (bst.c:138)
+       n0: 239568 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1922616 0x40083E: _addNode (bst.c:140)
+    n3: 961560 0x40083E: _addNode (bst.c:140)
+     n3: 483552 0x40081D: _addNode (bst.c:138)
+      n1: 241848 0x40083E: _addNode (bst.c:140)
+       n0: 241848 in 3 places, all below massif's threshold (01.00%)
+      n1: 241680 0x40081D: _addNode (bst.c:138)
+       n0: 241680 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 477984 0x40083E: _addNode (bst.c:140)
+      n1: 239232 0x40083E: _addNode (bst.c:140)
+       n0: 239232 in 3 places, all below massif's threshold (01.00%)
+      n1: 238728 0x40081D: _addNode (bst.c:138)
+       n0: 238728 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 961032 0x40081D: _addNode (bst.c:138)
+     n3: 482040 0x40083E: _addNode (bst.c:140)
+      n1: 244200 0x40081D: _addNode (bst.c:138)
+       n0: 244200 in 3 places, all below massif's threshold (01.00%)
+      n1: 237816 0x40083E: _addNode (bst.c:140)
+       n0: 237816 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 478968 0x40081D: _addNode (bst.c:138)
+      n1: 239784 0x40081D: _addNode (bst.c:138)
+       n0: 239784 in 3 places, all below massif's threshold (01.00%)
+      n1: 239160 0x40083E: _addNode (bst.c:140)
+       n0: 239160 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 3833352 0x40083E: _addNode (bst.c:140)
+   n3: 1917120 0x40083E: _addNode (bst.c:140)
+    n3: 959040 0x40081D: _addNode (bst.c:138)
+     n3: 479640 0x40083E: _addNode (bst.c:140)
+      n1: 242880 0x40081D: _addNode (bst.c:138)
+       n0: 242880 in 3 places, all below massif's threshold (01.00%)
+      n1: 236736 0x40083E: _addNode (bst.c:140)
+       n0: 236736 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 479376 0x40081D: _addNode (bst.c:138)
+      n1: 239808 0x40083E: _addNode (bst.c:140)
+       n0: 239808 in 3 places, all below massif's threshold (01.00%)
+      n1: 239544 0x40081D: _addNode (bst.c:138)
+       n0: 239544 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 958056 0x40083E: _addNode (bst.c:140)
+     n3: 479352 0x40083E: _addNode (bst.c:140)
+      n1: 240552 0x40081D: _addNode (bst.c:138)
+       n0: 240552 in 3 places, all below massif's threshold (01.00%)
+      n1: 238776 0x40083E: _addNode (bst.c:140)
+       n0: 238776 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 478680 0x40081D: _addNode (bst.c:138)
+      n1: 240216 0x40081D: _addNode (bst.c:138)
+       n0: 240216 in 3 places, all below massif's threshold (01.00%)
+      n1: 238440 0x40083E: _addNode (bst.c:140)
+       n0: 238440 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1916208 0x40081D: _addNode (bst.c:138)
+    n3: 960120 0x40083E: _addNode (bst.c:140)
+     n3: 481992 0x40081D: _addNode (bst.c:138)
+      n1: 241368 0x40081D: _addNode (bst.c:138)
+       n0: 241368 in 3 places, all below massif's threshold (01.00%)
+      n1: 240600 0x40083E: _addNode (bst.c:140)
+       n0: 240600 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 478104 0x40083E: _addNode (bst.c:140)
+      n1: 241176 0x40081D: _addNode (bst.c:138)
+       n0: 241176 in 3 places, all below massif's threshold (01.00%)
+      n1: 236904 0x40083E: _addNode (bst.c:140)
+       n0: 236904 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 956064 0x40081D: _addNode (bst.c:138)
+     n3: 478536 0x40081D: _addNode (bst.c:138)
+      n1: 239328 0x40081D: _addNode (bst.c:138)
+       n0: 239328 in 3 places, all below massif's threshold (01.00%)
+      n1: 239184 0x40083E: _addNode (bst.c:140)
+       n0: 239184 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 477504 0x40083E: _addNode (bst.c:140)
+      n1: 240480 0x40081D: _addNode (bst.c:138)
+       n0: 240480 in 3 places, all below massif's threshold (01.00%)
+      n1: 237000 0x40083E: _addNode (bst.c:140)
+       n0: 237000 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=21
+#-----------
+time=914385859
+mem_heap_B=7487488
+mem_heap_extra_B=4991656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=944197020
+mem_heap_B=7239352
+mem_heap_extra_B=4826232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=954139472
+mem_heap_B=7160896
+mem_heap_extra_B=4773928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=978984492
+mem_heap_B=6970816
+mem_heap_extra_B=4647208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1008804581
+mem_heap_B=6753496
+mem_heap_extra_B=4502328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1023713416
+mem_heap_B=6649024
+mem_heap_extra_B=4432680
+mem_stacks_B=0
+heap_tree=detailed
+n2: 6649024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 6649008 0x40079F: _addNode (bst.c:130)
+  n3: 3648312 0x40081D: _addNode (bst.c:138)
+   n3: 1825440 0x40081D: _addNode (bst.c:138)
+    n3: 914376 0x40081D: _addNode (bst.c:138)
+     n3: 457656 0x40081D: _addNode (bst.c:138)
+      n3: 228936 0x40083E: _addNode (bst.c:140)
+       n1: 114576 0x40081D: _addNode (bst.c:138)
+        n0: 114576 in 3 places, all below massif's threshold (01.00%)
+       n1: 114336 0x40083E: _addNode (bst.c:140)
+        n0: 114336 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 228696 0x40081D: _addNode (bst.c:138)
+       n1: 115392 0x40081D: _addNode (bst.c:138)
+        n0: 115392 in 3 places, all below massif's threshold (01.00%)
+       n1: 113304 0x40083E: _addNode (bst.c:140)
+        n0: 113304 in 3 places, all below massif's threshold (01.00%)
+       n0: 0 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 456696 0x40083E: _addNode (bst.c:140)
+      n3: 230424 0x40081D: _addNode (bst.c:138)
+       n1: 115992 0x40081D: _addNode (bst.c:138)
+        n0: 115992 in 3 places, all below massif's threshold (01.00%)
+       n1: 114408 0x40083E: _addNode (bst.c:140)
+        n0: 114408 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 226248 0x40083E: _addNode (bst.c:140)
+       n1: 113424 0x40081D: _addNode (bst.c:138)
+        n0: 113424 in 3 places, all below massif's threshold (01.00%)
+       n1: 112800 0x40083E: _addNode (bst.c:140)
+        n0: 112800 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 911040 0x40083E: _addNode (bst.c:140)
+     n3: 456024 0x40083E: _addNode (bst.c:140)
+      n3: 229056 0x40083E: _addNode (bst.c:140)
+       n1: 114768 0x40083E: _addNode (bst.c:140)
+        n0: 114768 in 3 places, all below massif's threshold (01.00%)
+       n1: 114264 0x40081D: _addNode (bst.c:138)
+        n0: 114264 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 226944 0x40081D: _addNode (bst.c:138)
+       n1: 115392 0x40081D: _addNode (bst.c:138)
+        n0: 115392 in 3 places, all below massif's threshold (01.00%)
+       n1: 111528 0x40083E: _addNode (bst.c:140)
+        n0: 111528 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 454992 0x40081D: _addNode (bst.c:138)
+      n3: 228600 0x40083E: _addNode (bst.c:140)
+       n1: 116424 0x40081D: _addNode (bst.c:138)
+        n0: 116424 in 3 places, all below massif's threshold (01.00%)
+       n1: 112152 0x40083E: _addNode (bst.c:140)
+        n0: 112152 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 226368 0x40081D: _addNode (bst.c:138)
+       n1: 113232 0x40083E: _addNode (bst.c:140)
+        n0: 113232 in 3 places, all below massif's threshold (01.00%)
+       n1: 113112 0x40081D: _addNode (bst.c:138)
+        n0: 113112 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1822848 0x40083E: _addNode (bst.c:140)
+    n3: 911664 0x40083E: _addNode (bst.c:140)
+     n3: 457128 0x40081D: _addNode (bst.c:138)
+      n3: 228576 0x40083E: _addNode (bst.c:140)
+       n1: 114864 0x40081D: _addNode (bst.c:138)
+        n0: 114864 in 3 places, all below massif's threshold (01.00%)
+       n1: 113688 0x40083E: _addNode (bst.c:140)
+        n0: 113688 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 228528 0x40081D: _addNode (bst.c:138)
+       n1: 115440 0x40081D: _addNode (bst.c:138)
+        n0: 115440 in 3 places, all below massif's threshold (01.00%)
+       n1: 113064 0x40083E: _addNode (bst.c:140)
+        n0: 113064 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 454512 0x40083E: _addNode (bst.c:140)
+      n3: 228216 0x40083E: _addNode (bst.c:140)
+       n1: 114168 0x40081D: _addNode (bst.c:138)
+        n0: 114168 in 3 places, all below massif's threshold (01.00%)
+       n1: 114024 0x40083E: _addNode (bst.c:140)
+        n0: 114024 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 226272 0x40081D: _addNode (bst.c:138)
+       n1: 114024 0x40081D: _addNode (bst.c:138)
+        n0: 114024 in 3 places, all below massif's threshold (01.00%)
+       n1: 112224 0x40083E: _addNode (bst.c:140)
+        n0: 112224 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 911160 0x40081D: _addNode (bst.c:138)
+     n3: 457176 0x40083E: _addNode (bst.c:140)
+      n3: 231912 0x40081D: _addNode (bst.c:138)
+       n1: 116928 0x40081D: _addNode (bst.c:138)
+        n0: 116928 in 3 places, all below massif's threshold (01.00%)
+       n1: 114960 0x40083E: _addNode (bst.c:140)
+        n0: 114960 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 225240 0x40083E: _addNode (bst.c:140)
+       n1: 113280 0x40081D: _addNode (bst.c:138)
+        n0: 113280 in 3 places, all below massif's threshold (01.00%)
+       n1: 111936 0x40083E: _addNode (bst.c:140)
+        n0: 111936 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 453960 0x40081D: _addNode (bst.c:138)
+      n3: 227376 0x40081D: _addNode (bst.c:138)
+       n1: 115248 0x40081D: _addNode (bst.c:138)
+        n0: 115248 in 3 places, all below massif's threshold (01.00%)
+       n1: 112104 0x40083E: _addNode (bst.c:140)
+        n0: 112104 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 226560 0x40083E: _addNode (bst.c:140)
+       n1: 114408 0x40081D: _addNode (bst.c:138)
+        n0: 114408 in 3 places, all below massif's threshold (01.00%)
+       n1: 112128 0x40083E: _addNode (bst.c:140)
+        n0: 112128 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 3000672 0x40083E: _addNode (bst.c:140)
+   n3: 1670400 0x40081D: _addNode (bst.c:138)
+    n3: 836544 0x40083E: _addNode (bst.c:140)
+     n3: 420504 0x40081D: _addNode (bst.c:138)
+      n1: 210408 0x40081D: _addNode (bst.c:138)
+       n0: 210408 in 3 places, all below massif's threshold (01.00%)
+      n1: 210072 0x40083E: _addNode (bst.c:140)
+       n0: 210072 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 416016 0x40083E: _addNode (bst.c:140)
+      n1: 209928 0x40081D: _addNode (bst.c:138)
+       n0: 209928 in 3 places, all below massif's threshold (01.00%)
+      n1: 206064 0x40083E: _addNode (bst.c:140)
+       n0: 206064 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 833832 0x40081D: _addNode (bst.c:138)
+     n3: 417984 0x40081D: _addNode (bst.c:138)
+      n1: 209040 0x40083E: _addNode (bst.c:140)
+       n0: 209040 in 3 places, all below massif's threshold (01.00%)
+      n1: 208920 0x40081D: _addNode (bst.c:138)
+       n0: 208920 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 415824 0x40083E: _addNode (bst.c:140)
+      n1: 209808 0x40081D: _addNode (bst.c:138)
+       n0: 209808 in 3 places, all below massif's threshold (01.00%)
+      n1: 205992 0x40083E: _addNode (bst.c:140)
+       n0: 205992 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1330248 0x40083E: _addNode (bst.c:140)
+    n3: 739296 0x40081D: _addNode (bst.c:138)
+     n3: 369720 0x40081D: _addNode (bst.c:138)
+      n1: 185496 0x40083E: _addNode (bst.c:140)
+       n0: 185496 in 3 places, all below massif's threshold (01.00%)
+      n1: 184200 0x40081D: _addNode (bst.c:138)
+       n0: 184200 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 369552 0x40083E: _addNode (bst.c:140)
+      n1: 186624 0x40081D: _addNode (bst.c:138)
+       n0: 186624 in 3 places, all below massif's threshold (01.00%)
+      n1: 182904 0x40083E: _addNode (bst.c:140)
+       n0: 182904 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 590928 0x40083E: _addNode (bst.c:140)
+     n3: 322440 0x40081D: _addNode (bst.c:138)
+      n1: 161520 0x40081D: _addNode (bst.c:138)
+       n0: 161520 in 3 places, all below massif's threshold (01.00%)
+      n1: 160896 0x40083E: _addNode (bst.c:140)
+       n0: 160896 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 268464 0x40083E: _addNode (bst.c:140)
+      n1: 143520 0x40081D: _addNode (bst.c:138)
+       n0: 143520 in 3 places, all below massif's threshold (01.00%)
+      n1: 124920 0x40083E: _addNode (bst.c:140)
+       n0: 124920 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=27
+#-----------
+time=1043589997
+mem_heap_B=6512368
+mem_heap_extra_B=4341576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1063462243
+mem_heap_B=6379408
+mem_heap_extra_B=4252936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1088306448
+mem_heap_B=6218296
+mem_heap_extra_B=4145528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1113150783
+mem_heap_B=6061912
+mem_heap_extra_B=4041272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1142960289
+mem_heap_B=5880592
+mem_heap_extra_B=3920392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1162833988
+mem_heap_B=5760880
+mem_heap_extra_B=3840584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1188600408
+mem_heap_B=5609440
+mem_heap_extra_B=3739624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1222955489
+mem_heap_B=5415736
+mem_heap_extra_B=3610488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1248723700
+mem_heap_B=5273224
+mem_heap_extra_B=3515480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1274491985
+mem_heap_B=5135392
+mem_heap_extra_B=3423592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1291676702
+mem_heap_B=5043688
+mem_heap_extra_B=3362456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1317445067
+mem_heap_B=4909264
+mem_heap_extra_B=3272840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1334621215
+mem_heap_B=4821856
+mem_heap_extra_B=3214568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1360384172
+mem_heap_B=4692112
+mem_heap_extra_B=3128072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1386163914
+mem_heap_B=4562920
+mem_heap_extra_B=3041944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1403348311
+mem_heap_B=4480264
+mem_heap_extra_B=2986840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1437701959
+mem_heap_B=4315072
+mem_heap_extra_B=2876712
+mem_stacks_B=0
+heap_tree=detailed
+n2: 4315072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4315056 0x40079F: _addNode (bst.c:130)
+  n3: 2399184 0x40081D: _addNode (bst.c:138)
+   n3: 1200384 0x40083E: _addNode (bst.c:140)
+    n3: 600744 0x40083E: _addNode (bst.c:140)
+     n3: 303696 0x40081D: _addNode (bst.c:138)
+      n3: 152280 0x40083E: _addNode (bst.c:140)
+       n1: 76128 0x40083E: _addNode (bst.c:140)
+        n0: 76128 in 3 places, all below massif's threshold (01.00%)
+       n1: 76128 0x40081D: _addNode (bst.c:138)
+        n0: 76128 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 151392 0x40081D: _addNode (bst.c:138)
+       n1: 76464 0x40081D: _addNode (bst.c:138)
+        n0: 76464 in 3 places, all below massif's threshold (01.00%)
+       n1: 74904 0x40083E: _addNode (bst.c:140)
+        n0: 74904 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 297024 0x40083E: _addNode (bst.c:140)
+      n3: 149688 0x40083E: _addNode (bst.c:140)
+       n1: 75096 0x40081D: _addNode (bst.c:138)
+        n0: 75096 in 3 places, all below massif's threshold (01.00%)
+       n1: 74568 0x40083E: _addNode (bst.c:140)
+        n0: 74568 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 147312 0x40081D: _addNode (bst.c:138)
+       n1: 74376 0x40081D: _addNode (bst.c:138)
+        n0: 74376 in 3 places, all below massif's threshold (01.00%)
+       n1: 72912 0x40083E: _addNode (bst.c:140)
+        n0: 72912 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 599616 0x40081D: _addNode (bst.c:138)
+     n3: 299880 0x40081D: _addNode (bst.c:138)
+      n3: 151512 0x40081D: _addNode (bst.c:138)
+       n1: 76968 0x40081D: _addNode (bst.c:138)
+        n0: 76968 in 3 places, all below massif's threshold (01.00%)
+       n1: 74520 0x40083E: _addNode (bst.c:140)
+        n0: 74520 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 148344 0x40083E: _addNode (bst.c:140)
+       n1: 74256 0x40081D: _addNode (bst.c:138)
+        n0: 74256 in 3 places, all below massif's threshold (01.00%)
+       n1: 74064 0x40083E: _addNode (bst.c:140)
+        n0: 74064 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 299712 0x40083E: _addNode (bst.c:140)
+      n3: 150888 0x40081D: _addNode (bst.c:138)
+       n1: 76032 0x40081D: _addNode (bst.c:138)
+        n0: 76032 in 3 places, all below massif's threshold (01.00%)
+       n1: 74832 0x40083E: _addNode (bst.c:140)
+        n0: 74832 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 148800 0x40083E: _addNode (bst.c:140)
+       n1: 74592 0x40083E: _addNode (bst.c:140)
+        n0: 74592 in 3 places, all below massif's threshold (01.00%)
+       n1: 74184 0x40081D: _addNode (bst.c:138)
+        n0: 74184 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 1198776 0x40081D: _addNode (bst.c:138)
+    n3: 601608 0x40081D: _addNode (bst.c:138)
+     n3: 301920 0x40081D: _addNode (bst.c:138)
+      n3: 151392 0x40081D: _addNode (bst.c:138)
+       n1: 75792 0x40083E: _addNode (bst.c:140)
+        n0: 75792 in 3 places, all below massif's threshold (01.00%)
+       n1: 75600 0x40081D: _addNode (bst.c:138)
+        n0: 75600 in 3 places, all below massif's threshold (01.00%)
+       n0: 0 in 1 place, below massif's threshold (01.00%)
+      n3: 150504 0x40083E: _addNode (bst.c:140)
+       n1: 75504 0x40081D: _addNode (bst.c:138)
+        n0: 75504 in 3 places, all below massif's threshold (01.00%)
+       n1: 74976 0x40083E: _addNode (bst.c:140)
+        n0: 74976 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 299664 0x40083E: _addNode (bst.c:140)
+      n3: 151320 0x40081D: _addNode (bst.c:138)
+       n1: 76200 0x40083E: _addNode (bst.c:140)
+        n0: 76200 in 3 places, all below massif's threshold (01.00%)
+       n1: 75096 0x40081D: _addNode (bst.c:138)
+        n0: 75096 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 148320 0x40083E: _addNode (bst.c:140)
+       n1: 74760 0x40083E: _addNode (bst.c:140)
+        n0: 74760 in 3 places, all below massif's threshold (01.00%)
+       n1: 73536 0x40081D: _addNode (bst.c:138)
+        n0: 73536 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 597144 0x40083E: _addNode (bst.c:140)
+     n3: 299784 0x40081D: _addNode (bst.c:138)
+      n3: 150720 0x40081D: _addNode (bst.c:138)
+       n1: 75720 0x40083E: _addNode (bst.c:140)
+        n0: 75720 in 3 places, all below massif's threshold (01.00%)
+       n1: 74976 0x40081D: _addNode (bst.c:138)
+        n0: 74976 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 149040 0x40083E: _addNode (bst.c:140)
+       n1: 75744 0x40081D: _addNode (bst.c:138)
+        n0: 75744 in 3 places, all below massif's threshold (01.00%)
+       n1: 73272 0x40083E: _addNode (bst.c:140)
+        n0: 73272 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 297336 0x40083E: _addNode (bst.c:140)
+      n3: 149280 0x40083E: _addNode (bst.c:140)
+       n1: 75720 0x40081D: _addNode (bst.c:138)
+        n0: 75720 in 3 places, all below massif's threshold (01.00%)
+       n1: 73536 0x40083E: _addNode (bst.c:140)
+        n0: 73536 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n3: 148032 0x40081D: _addNode (bst.c:138)
+       n1: 75432 0x40081D: _addNode (bst.c:138)
+        n0: 75432 in 3 places, all below massif's threshold (01.00%)
+       n1: 72576 0x40083E: _addNode (bst.c:140)
+        n0: 72576 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 1915848 0x40083E: _addNode (bst.c:140)
+   n3: 1000896 0x40081D: _addNode (bst.c:138)
+    n3: 500664 0x40083E: _addNode (bst.c:140)
+     n3: 252528 0x40081D: _addNode (bst.c:138)
+      n1: 127728 0x40081D: _addNode (bst.c:138)
+       n0: 127728 in 3 places, all below massif's threshold (01.00%)
+      n1: 124776 0x40083E: _addNode (bst.c:140)
+       n0: 124776 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 248112 0x40083E: _addNode (bst.c:140)
+      n1: 125304 0x40081D: _addNode (bst.c:138)
+       n0: 125304 in 3 places, all below massif's threshold (01.00%)
+      n1: 122784 0x40083E: _addNode (bst.c:140)
+       n0: 122784 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 500208 0x40081D: _addNode (bst.c:138)
+     n3: 251112 0x40081D: _addNode (bst.c:138)
+      n1: 126360 0x40081D: _addNode (bst.c:138)
+       n0: 126360 in 3 places, all below massif's threshold (01.00%)
+      n1: 124728 0x40083E: _addNode (bst.c:140)
+       n0: 124728 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 249072 0x40083E: _addNode (bst.c:140)
+      n1: 125472 0x40081D: _addNode (bst.c:138)
+       n0: 125472 in 3 places, all below massif's threshold (01.00%)
+      n1: 123576 0x40083E: _addNode (bst.c:140)
+       n0: 123576 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 914928 0x40083E: _addNode (bst.c:140)
+    n3: 463392 0x40081D: _addNode (bst.c:138)
+     n3: 232296 0x40081D: _addNode (bst.c:138)
+      n1: 117120 0x40083E: _addNode (bst.c:140)
+       n0: 117120 in 3 places, all below massif's threshold (01.00%)
+      n1: 115152 0x40081D: _addNode (bst.c:138)
+       n0: 115152 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 231072 0x40083E: _addNode (bst.c:140)
+      n1: 116592 0x40081D: _addNode (bst.c:138)
+       n0: 116592 in 3 places, all below massif's threshold (01.00%)
+      n1: 114456 0x40083E: _addNode (bst.c:140)
+       n0: 114456 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 451512 0x40083E: _addNode (bst.c:140)
+     n3: 227520 0x40081D: _addNode (bst.c:138)
+      n1: 113880 0x40083E: _addNode (bst.c:140)
+       n0: 113880 in 3 places, all below massif's threshold (01.00%)
+      n1: 113616 0x40081D: _addNode (bst.c:138)
+       n0: 113616 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 223968 0x40083E: _addNode (bst.c:140)
+      n1: 113544 0x40081D: _addNode (bst.c:138)
+       n0: 113544 in 3 places, all below massif's threshold (01.00%)
+      n1: 110400 0x40083E: _addNode (bst.c:140)
+       n0: 110400 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=44
+#-----------
+time=1454887313
+mem_heap_B=4234528
+mem_heap_extra_B=2823016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1489250811
+mem_heap_B=4074184
+mem_heap_extra_B=2716120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1515015683
+mem_heap_B=3955792
+mem_heap_extra_B=2637192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1532193320
+mem_heap_B=3877696
+mem_heap_extra_B=2585128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1566547803
+mem_heap_B=3723304
+mem_heap_extra_B=2482200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1592330485
+mem_heap_B=3608752
+mem_heap_extra_B=2405832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1602277093
+mem_heap_B=3565744
+mem_heap_extra_B=2377160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1612226291
+mem_heap_B=3521872
+mem_heap_extra_B=2347912
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3521872 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 3521856 0x40079F: _addNode (bst.c:130)
+  n3: 1854744 0x40081D: _addNode (bst.c:138)
+   n3: 927576 0x40083E: _addNode (bst.c:140)
+    n3: 464136 0x40083E: _addNode (bst.c:140)
+     n3: 233760 0x40081D: _addNode (bst.c:138)
+      n3: 118224 0x40083E: _addNode (bst.c:140)
+       n1: 59160 0x40081D: _addNode (bst.c:138)
+        n0: 59160 in 3 places, all below massif's threshold (01.00%)
+       n1: 59040 0x40083E: _addNode (bst.c:140)
+        n0: 59040 in 3 places, all below massif's threshold (01.00%)
+       n0: 24 in 1 place, below massif's threshold (01.00%)
+      n1: 115512 0x40081D: _addNode (bst.c:138)
+       n0: 115512 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 230352 0x40083E: _addNode (bst.c:140)
+      n1: 115584 0x40083E: _addNode (bst.c:140)
+       n0: 115584 in 3 places, all below massif's threshold (01.00%)
+      n1: 114744 0x40081D: _addNode (bst.c:138)
+       n0: 114744 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 463416 0x40081D: _addNode (bst.c:138)
+     n3: 232536 0x40081D: _addNode (bst.c:138)
+      n2: 117288 0x40081D: _addNode (bst.c:138)
+       n1: 60480 0x40081D: _addNode (bst.c:138)
+        n0: 60480 in 3 places, all below massif's threshold (01.00%)
+       n0: 56808 in 2 places, all below massif's threshold (01.00%)
+      n1: 115224 0x40083E: _addNode (bst.c:140)
+       n0: 115224 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 230856 0x40083E: _addNode (bst.c:140)
+      n2: 116808 0x40081D: _addNode (bst.c:138)
+       n1: 59016 0x40081D: _addNode (bst.c:138)
+        n0: 59016 in 3 places, all below massif's threshold (01.00%)
+       n0: 57792 in 2 places, all below massif's threshold (01.00%)
+      n1: 114024 0x40083E: _addNode (bst.c:140)
+       n0: 114024 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 927144 0x40081D: _addNode (bst.c:138)
+    n3: 465216 0x40081D: _addNode (bst.c:138)
+     n3: 232920 0x40081D: _addNode (bst.c:138)
+      n1: 116808 0x40081D: _addNode (bst.c:138)
+       n0: 116808 in 3 places, all below massif's threshold (01.00%)
+      n1: 116088 0x40083E: _addNode (bst.c:140)
+       n0: 116088 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 232272 0x40083E: _addNode (bst.c:140)
+      n2: 117216 0x40081D: _addNode (bst.c:138)
+       n1: 58800 0x40083E: _addNode (bst.c:140)
+        n0: 58800 in 3 places, all below massif's threshold (01.00%)
+       n0: 58416 in 2 places, all below massif's threshold (01.00%)
+      n1: 115032 0x40083E: _addNode (bst.c:140)
+       n0: 115032 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 461904 0x40083E: _addNode (bst.c:140)
+     n3: 232848 0x40081D: _addNode (bst.c:138)
+      n2: 117552 0x40081D: _addNode (bst.c:138)
+       n1: 58872 0x40081D: _addNode (bst.c:138)
+        n0: 58872 in 3 places, all below massif's threshold (01.00%)
+       n0: 58680 in 2 places, all below massif's threshold (01.00%)
+      n2: 115272 0x40083E: _addNode (bst.c:140)
+       n1: 59208 0x40081D: _addNode (bst.c:138)
+        n0: 59208 in 3 places, all below massif's threshold (01.00%)
+       n0: 56064 in 2 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 229032 0x40083E: _addNode (bst.c:140)
+      n1: 114792 0x40081D: _addNode (bst.c:138)
+       n0: 114792 in 3 places, all below massif's threshold (01.00%)
+      n1: 114216 0x40083E: _addNode (bst.c:140)
+       n0: 114216 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 1667088 0x40083E: _addNode (bst.c:140)
+   n3: 845832 0x40081D: _addNode (bst.c:138)
+    n3: 424176 0x40081D: _addNode (bst.c:138)
+     n3: 212160 0x40083E: _addNode (bst.c:140)
+      n1: 107184 0x40081D: _addNode (bst.c:138)
+       n0: 107184 in 3 places, all below massif's threshold (01.00%)
+      n1: 104952 0x40083E: _addNode (bst.c:140)
+       n0: 104952 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 211992 0x40081D: _addNode (bst.c:138)
+      n1: 106848 0x40081D: _addNode (bst.c:138)
+       n0: 106848 in 3 places, all below massif's threshold (01.00%)
+      n1: 105120 0x40083E: _addNode (bst.c:140)
+       n0: 105120 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 421632 0x40083E: _addNode (bst.c:140)
+     n3: 211536 0x40081D: _addNode (bst.c:138)
+      n1: 106728 0x40081D: _addNode (bst.c:138)
+       n0: 106728 in 3 places, all below massif's threshold (01.00%)
+      n1: 104784 0x40083E: _addNode (bst.c:140)
+       n0: 104784 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 210072 0x40083E: _addNode (bst.c:140)
+      n1: 106584 0x40081D: _addNode (bst.c:138)
+       n0: 106584 in 3 places, all below massif's threshold (01.00%)
+      n1: 103464 0x40083E: _addNode (bst.c:140)
+       n0: 103464 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 821232 0x40083E: _addNode (bst.c:140)
+    n3: 411000 0x40083E: _addNode (bst.c:140)
+     n3: 206304 0x40081D: _addNode (bst.c:138)
+      n1: 103512 0x40083E: _addNode (bst.c:140)
+       n0: 103512 in 3 places, all below massif's threshold (01.00%)
+      n1: 102768 0x40081D: _addNode (bst.c:138)
+       n0: 102768 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 204672 0x40083E: _addNode (bst.c:140)
+      n1: 103680 0x40081D: _addNode (bst.c:138)
+       n0: 103680 in 3 places, all below massif's threshold (01.00%)
+      n1: 100968 0x40083E: _addNode (bst.c:140)
+       n0: 100968 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 410208 0x40081D: _addNode (bst.c:138)
+     n3: 206280 0x40081D: _addNode (bst.c:138)
+      n1: 104328 0x40083E: _addNode (bst.c:140)
+       n0: 104328 in 3 places, all below massif's threshold (01.00%)
+      n1: 101928 0x40081D: _addNode (bst.c:138)
+       n0: 101928 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 203904 0x40083E: _addNode (bst.c:140)
+      n1: 103800 0x40081D: _addNode (bst.c:138)
+       n0: 103800 in 3 places, all below massif's threshold (01.00%)
+      n1: 100080 0x40083E: _addNode (bst.c:140)
+       n0: 100080 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=52
+#-----------
+time=1622174542
+mem_heap_B=3478792
+mem_heap_extra_B=2319192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1632117212
+mem_heap_B=3436792
+mem_heap_extra_B=2291192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1642067555
+mem_heap_B=3392752
+mem_heap_extra_B=2261832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1652011110
+mem_heap_B=3348712
+mem_heap_extra_B=2232472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1661962243
+mem_heap_B=3306736
+mem_heap_extra_B=2204488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1671905710
+mem_heap_B=3262336
+mem_heap_extra_B=2174888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1681854527
+mem_heap_B=3219496
+mem_heap_extra_B=2146328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1691798753
+mem_heap_B=3175792
+mem_heap_extra_B=2117192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1701742418
+mem_heap_B=3131920
+mem_heap_extra_B=2087944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1711687175
+mem_heap_B=3087904
+mem_heap_extra_B=2058600
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3087904 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 3087888 0x40079F: _addNode (bst.c:130)
+  n3: 1574760 0x40081D: _addNode (bst.c:138)
+   n3: 787944 0x40081D: _addNode (bst.c:138)
+    n3: 394416 0x40081D: _addNode (bst.c:138)
+     n3: 197736 0x40083E: _addNode (bst.c:140)
+      n1: 99984 0x40081D: _addNode (bst.c:138)
+       n0: 99984 in 3 places, all below massif's threshold (01.00%)
+      n1: 97728 0x40083E: _addNode (bst.c:140)
+       n0: 97728 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 196656 0x40081D: _addNode (bst.c:138)
+      n1: 98832 0x40081D: _addNode (bst.c:138)
+       n0: 98832 in 3 places, all below massif's threshold (01.00%)
+      n1: 97800 0x40083E: _addNode (bst.c:140)
+       n0: 97800 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 393504 0x40083E: _addNode (bst.c:140)
+     n3: 198192 0x40081D: _addNode (bst.c:138)
+      n1: 100920 0x40081D: _addNode (bst.c:138)
+       n0: 100920 in 3 places, all below massif's threshold (01.00%)
+      n1: 97248 0x40083E: _addNode (bst.c:140)
+       n0: 97248 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 195288 0x40083E: _addNode (bst.c:140)
+      n1: 97704 0x40081D: _addNode (bst.c:138)
+       n0: 97704 in 3 places, all below massif's threshold (01.00%)
+      n1: 97560 0x40083E: _addNode (bst.c:140)
+       n0: 97560 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 786792 0x40083E: _addNode (bst.c:140)
+    n3: 394056 0x40083E: _addNode (bst.c:140)
+     n3: 199128 0x40081D: _addNode (bst.c:138)
+      n1: 100392 0x40083E: _addNode (bst.c:140)
+       n0: 100392 in 3 places, all below massif's threshold (01.00%)
+      n1: 98712 0x40081D: _addNode (bst.c:138)
+       n0: 98712 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 194904 0x40083E: _addNode (bst.c:140)
+      n1: 97656 0x40081D: _addNode (bst.c:138)
+       n0: 97656 in 3 places, all below massif's threshold (01.00%)
+      n1: 97224 0x40083E: _addNode (bst.c:140)
+       n0: 97224 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 392712 0x40081D: _addNode (bst.c:138)
+     n3: 196368 0x40083E: _addNode (bst.c:140)
+      n1: 99432 0x40081D: _addNode (bst.c:138)
+       n0: 99432 in 3 places, all below massif's threshold (01.00%)
+      n1: 96912 0x40083E: _addNode (bst.c:140)
+       n0: 96912 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 196320 0x40081D: _addNode (bst.c:138)
+      n1: 98568 0x40081D: _addNode (bst.c:138)
+       n0: 98568 in 3 places, all below massif's threshold (01.00%)
+      n1: 97728 0x40083E: _addNode (bst.c:140)
+       n0: 97728 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 1513104 0x40083E: _addNode (bst.c:140)
+   n3: 761568 0x40081D: _addNode (bst.c:138)
+    n3: 380856 0x40083E: _addNode (bst.c:140)
+     n3: 190968 0x40081D: _addNode (bst.c:138)
+      n1: 96576 0x40081D: _addNode (bst.c:138)
+       n0: 96576 in 3 places, all below massif's threshold (01.00%)
+      n1: 94368 0x40083E: _addNode (bst.c:140)
+       n0: 94368 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 189864 0x40083E: _addNode (bst.c:140)
+      n1: 96072 0x40081D: _addNode (bst.c:138)
+       n0: 96072 in 3 places, all below massif's threshold (01.00%)
+      n1: 93768 0x40083E: _addNode (bst.c:140)
+       n0: 93768 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 380688 0x40081D: _addNode (bst.c:138)
+     n3: 190872 0x40081D: _addNode (bst.c:138)
+      n1: 96144 0x40081D: _addNode (bst.c:138)
+       n0: 96144 in 3 places, all below massif's threshold (01.00%)
+      n1: 94704 0x40083E: _addNode (bst.c:140)
+       n0: 94704 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 189792 0x40083E: _addNode (bst.c:140)
+      n1: 95904 0x40081D: _addNode (bst.c:138)
+       n0: 95904 in 3 places, all below massif's threshold (01.00%)
+      n1: 93864 0x40083E: _addNode (bst.c:140)
+       n0: 93864 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 751512 0x40083E: _addNode (bst.c:140)
+    n3: 377112 0x40083E: _addNode (bst.c:140)
+     n3: 189648 0x40081D: _addNode (bst.c:138)
+      n1: 95088 0x40083E: _addNode (bst.c:140)
+       n0: 95088 in 3 places, all below massif's threshold (01.00%)
+      n1: 94536 0x40081D: _addNode (bst.c:138)
+       n0: 94536 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 187440 0x40083E: _addNode (bst.c:140)
+      n1: 94728 0x40081D: _addNode (bst.c:138)
+       n0: 94728 in 3 places, all below massif's threshold (01.00%)
+      n1: 92688 0x40083E: _addNode (bst.c:140)
+       n0: 92688 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 374376 0x40081D: _addNode (bst.c:138)
+     n3: 188112 0x40081D: _addNode (bst.c:138)
+      n1: 95808 0x40083E: _addNode (bst.c:140)
+       n0: 95808 in 3 places, all below massif's threshold (01.00%)
+      n1: 92280 0x40081D: _addNode (bst.c:138)
+       n0: 92280 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 186240 0x40083E: _addNode (bst.c:140)
+      n1: 94824 0x40081D: _addNode (bst.c:138)
+       n0: 94824 in 3 places, all below massif's threshold (01.00%)
+      n1: 91392 0x40083E: _addNode (bst.c:140)
+       n0: 91392 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=62
+#-----------
+time=1721634090
+mem_heap_B=3043792
+mem_heap_extra_B=2029192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1731579671
+mem_heap_B=2999008
+mem_heap_extra_B=1999336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1741527083
+mem_heap_B=2955112
+mem_heap_extra_B=1970072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1751473459
+mem_heap_B=2909656
+mem_heap_extra_B=1939768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1761419208
+mem_heap_B=2864776
+mem_heap_extra_B=1909848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1771362123
+mem_heap_B=2819032
+mem_heap_extra_B=1879352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1781314213
+mem_heap_B=2770288
+mem_heap_extra_B=1846856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=1791258815
+mem_heap_B=2722384
+mem_heap_extra_B=1814920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1801201692
+mem_heap_B=2670448
+mem_heap_extra_B=1780296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1811144883
+mem_heap_B=2616808
+mem_heap_extra_B=1744536
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2616808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2616792 0x40079F: _addNode (bst.c:130)
+  n3: 1309584 0x40081D: _addNode (bst.c:138)
+   n3: 655968 0x40083E: _addNode (bst.c:140)
+    n3: 328848 0x40083E: _addNode (bst.c:140)
+     n3: 166728 0x40081D: _addNode (bst.c:138)
+      n1: 84480 0x40083E: _addNode (bst.c:140)
+       n0: 84480 in 3 places, all below massif's threshold (01.00%)
+      n1: 82224 0x40081D: _addNode (bst.c:138)
+       n0: 82224 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 162096 0x40083E: _addNode (bst.c:140)
+      n1: 81816 0x40083E: _addNode (bst.c:140)
+       n0: 81816 in 3 places, all below massif's threshold (01.00%)
+      n1: 80256 0x40081D: _addNode (bst.c:138)
+       n0: 80256 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 327096 0x40081D: _addNode (bst.c:138)
+     n3: 164304 0x40083E: _addNode (bst.c:140)
+      n1: 83736 0x40081D: _addNode (bst.c:138)
+       n0: 83736 in 3 places, all below massif's threshold (01.00%)
+      n1: 80544 0x40083E: _addNode (bst.c:140)
+       n0: 80544 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 162768 0x40081D: _addNode (bst.c:138)
+      n1: 82032 0x40081D: _addNode (bst.c:138)
+       n0: 82032 in 3 places, all below massif's threshold (01.00%)
+      n1: 80712 0x40083E: _addNode (bst.c:140)
+       n0: 80712 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 653592 0x40081D: _addNode (bst.c:138)
+    n3: 326832 0x40083E: _addNode (bst.c:140)
+     n3: 164088 0x40081D: _addNode (bst.c:138)
+      n1: 83352 0x40081D: _addNode (bst.c:138)
+       n0: 83352 in 3 places, all below massif's threshold (01.00%)
+      n1: 80712 0x40083E: _addNode (bst.c:140)
+       n0: 80712 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 162720 0x40083E: _addNode (bst.c:140)
+      n1: 81432 0x40083E: _addNode (bst.c:140)
+       n0: 81432 in 3 places, all below massif's threshold (01.00%)
+      n1: 81264 0x40081D: _addNode (bst.c:138)
+       n0: 81264 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 326736 0x40081D: _addNode (bst.c:138)
+     n3: 163752 0x40083E: _addNode (bst.c:140)
+      n1: 82824 0x40081D: _addNode (bst.c:138)
+       n0: 82824 in 3 places, all below massif's threshold (01.00%)
+      n1: 80904 0x40083E: _addNode (bst.c:140)
+       n0: 80904 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 162960 0x40081D: _addNode (bst.c:138)
+      n1: 82320 0x40081D: _addNode (bst.c:138)
+       n0: 82320 in 3 places, all below massif's threshold (01.00%)
+      n1: 80616 0x40083E: _addNode (bst.c:140)
+       n0: 80616 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n3: 1307184 0x40083E: _addNode (bst.c:140)
+   n3: 656880 0x40081D: _addNode (bst.c:138)
+    n3: 329064 0x40083E: _addNode (bst.c:140)
+     n3: 165360 0x40081D: _addNode (bst.c:138)
+      n1: 83544 0x40081D: _addNode (bst.c:138)
+       n0: 83544 in 3 places, all below massif's threshold (01.00%)
+      n1: 81792 0x40083E: _addNode (bst.c:140)
+       n0: 81792 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 163680 0x40083E: _addNode (bst.c:140)
+      n1: 82944 0x40081D: _addNode (bst.c:138)
+       n0: 82944 in 3 places, all below massif's threshold (01.00%)
+      n1: 80712 0x40083E: _addNode (bst.c:140)
+       n0: 80712 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 327792 0x40081D: _addNode (bst.c:138)
+     n3: 165120 0x40081D: _addNode (bst.c:138)
+      n1: 83736 0x40081D: _addNode (bst.c:138)
+       n0: 83736 in 3 places, all below massif's threshold (01.00%)
+      n1: 81360 0x40083E: _addNode (bst.c:140)
+       n0: 81360 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 162648 0x40083E: _addNode (bst.c:140)
+      n1: 81576 0x40081D: _addNode (bst.c:138)
+       n0: 81576 in 3 places, all below massif's threshold (01.00%)
+      n1: 81048 0x40083E: _addNode (bst.c:140)
+       n0: 81048 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n3: 650280 0x40083E: _addNode (bst.c:140)
+    n3: 326448 0x40083E: _addNode (bst.c:140)
+     n3: 164568 0x40081D: _addNode (bst.c:138)
+      n1: 82632 0x40081D: _addNode (bst.c:138)
+       n0: 82632 in 3 places, all below massif's threshold (01.00%)
+      n1: 81912 0x40083E: _addNode (bst.c:140)
+       n0: 81912 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 161856 0x40083E: _addNode (bst.c:140)
+      n1: 81432 0x40081D: _addNode (bst.c:138)
+       n0: 81432 in 3 places, all below massif's threshold (01.00%)
+      n1: 80400 0x40083E: _addNode (bst.c:140)
+       n0: 80400 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n3: 323808 0x40081D: _addNode (bst.c:138)
+     n3: 162840 0x40081D: _addNode (bst.c:138)
+      n1: 82992 0x40083E: _addNode (bst.c:140)
+       n0: 82992 in 3 places, all below massif's threshold (01.00%)
+      n1: 79824 0x40081D: _addNode (bst.c:138)
+       n0: 79824 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n3: 160944 0x40083E: _addNode (bst.c:140)
+      n1: 82008 0x40081D: _addNode (bst.c:138)
+       n0: 82008 in 3 places, all below massif's threshold (01.00%)
+      n1: 78912 0x40083E: _addNode (bst.c:140)
+       n0: 78912 in 3 places, all below massif's threshold (01.00%)
+      n0: 24 in 1 place, below massif's threshold (01.00%)
+     n0: 24 in 1 place, below massif's threshold (01.00%)
+    n0: 24 in 1 place, below massif's threshold (01.00%)
+   n0: 24 in 1 place, below massif's threshold (01.00%)
+  n0: 24 in 1 place, below massif's threshold (01.00%)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=72
+#-----------
+time=1821087415
+mem_heap_B=2556136
+mem_heap_extra_B=1704088
+mem_stacks_B=0
+heap_tree=empty

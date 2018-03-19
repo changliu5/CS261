@@ -1,0 +1,371 @@
+desc: (none)
+cmd: a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=98880
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=98931
+mem_heap_B=4016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=12696538
+mem_heap_B=4016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 4016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 4000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 4000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=4
+#-----------
+time=12696538
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=12696577
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=12696619
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=12696670
+mem_heap_B=8016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=62880626
+mem_heap_B=8016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 8016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 8000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 8000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=9
+#-----------
+time=62880626
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=62880665
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=62880707
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=62880758
+mem_heap_B=16016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=263245998
+mem_heap_B=16016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 16016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 16000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 16000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=14
+#-----------
+time=263245998
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=263246037
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=263246079
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=263246130
+mem_heap_B=32016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1063973359
+mem_heap_B=32016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 32016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 32000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 32000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=19
+#-----------
+time=1063973359
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1063973398
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1063973440
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1063973491
+mem_heap_B=64016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=4265424981
+mem_heap_B=64016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 64016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 64000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 64000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 64000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=24
+#-----------
+time=4265424981
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=4265425020
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=4265425062
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=4265425113
+mem_heap_B=128016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=17068324802
+mem_heap_B=128016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 128016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 128000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 128000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 128000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=29
+#-----------
+time=17068324802
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=17068324841
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=17068324883
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=17068324934
+mem_heap_B=256016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=68274120667
+mem_heap_B=256016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 256016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 256000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 256000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 256000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=34
+#-----------
+time=68274120667
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=68274120706
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=68274120748
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=68274120799
+mem_heap_B=512016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=273085708760
+mem_heap_B=512016
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=peak
+n2: 512016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 512000 0x400691: _initDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+  n1: 512000 0x400740: createDynArr (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+   n0: 512000 0x400FCF: main (in /nfs/stak/students/w/wangha/CS261/a3/a.out)
+ n0: 16 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=39
+#-----------
+time=273085708760
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=273085708799
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

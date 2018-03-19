@@ -1,0 +1,2081 @@
+--------------------------------------------------------------------------------
+Command:            prog
+Massif arguments:   (none)
+ms_print arguments: massif.out.32740
+--------------------------------------------------------------------------------
+
+
+    MB
+12.21^                                   #                                    
+     |                :::::::::::::::::::#:                                   
+     |               :::                 #:::                                 
+     |               :::                 #::::@                               
+     |              @:::                 #::::@:::                            
+     |             @@:::                 #::::@:::::                          
+     |            :@@:::                 #::::@::::::::                       
+     |           ::@@:::                 #::::@:::::: ::::                    
+     |          :::@@:::                 #::::@:::::: ::::::                  
+     |         ::::@@:::                 #::::@:::::: ::::::::@:              
+     |         ::::@@:::                 #::::@:::::: ::::::::@::::           
+     |        :::::@@:::                 #::::@:::::: ::::::::@::::::@:       
+     |       ::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@    
+     |      :::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@::: 
+     |     @:::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@:::@
+     |    :@:::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@:::@
+     |   ::@:::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@:::@
+     |   ::@:::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@:::@
+     | ::::@:::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@:::@
+     |:: ::@:::::::@@:::                 #::::@:::::: ::::::::@::::::@:::@:::@
+   0 +----------------------------------------------------------------------->Gi
+     0                                                                   1.696
+
+Number of snapshots: 73
+ Detailed snapshots: [6, 14, 15, 20 (peak), 26, 43, 51, 61, 71]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1     21,084,066          786,864          472,120       314,744            0
+  2     42,351,724        1,490,504          894,304       596,200            0
+  3     76,465,792        2,558,824        1,535,296     1,023,528            0
+  4     90,875,619        2,998,464        1,799,080     1,199,384            0
+  5    112,762,582        3,656,584        2,193,952     1,462,632            0
+  6    133,657,924        4,275,464        2,565,280     1,710,184            0
+60.00% (2,565,280B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (2,565,264B) 0x40079F: _addNode (bst.c:130)
+| ->30.04% (1,284,336B) 0x40081D: _addNode (bst.c:138)
+| | ->15.08% (644,712B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.62% (325,968B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.83% (163,704B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.93% (82,608B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.93% (82,608B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.90% (81,072B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (81,072B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.79% (162,240B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.96% (83,592B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.00% (42,768B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.00% (42,768B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.95% (40,824B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->01.84% (78,624B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.84% (78,624B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.45% (318,720B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.77% (161,136B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.91% (81,600B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.91% (81,600B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (79,512B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (79,512B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.69% (157,560B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.85% (78,960B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (78,960B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (78,576B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.84% (78,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.96% (639,600B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.48% (319,920B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.77% (161,256B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.92% (81,960B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (81,960B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (79,272B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (79,272B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.71% (158,640B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (79,896B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (79,896B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (78,720B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.84% (78,720B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.48% (319,656B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.76% (160,704B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.90% (81,096B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (81,096B) in 2 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (79,584B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (79,584B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.72% (158,928B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (80,232B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (80,232B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (78,672B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.84% (78,672B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->29.96% (1,280,904B) 0x40083E: _addNode (bst.c:140)
+| | ->15.01% (641,856B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.54% (322,488B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.78% (161,808B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.91% (81,696B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.91% (81,696B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (80,088B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (80,088B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.76% (160,656B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.89% (80,784B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (80,784B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (79,848B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (79,848B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.47% (319,344B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.83% (163,800B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.95% (83,256B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.95% (83,256B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (80,520B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (80,520B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.64% (155,520B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.83% (78,216B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.83% (78,216B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.81% (77,280B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.81% (77,280B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.95% (639,024B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.52% (321,720B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.78% (161,784B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.94% (83,064B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.94% (83,064B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (78,696B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.84% (78,696B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (159,912B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.91% (81,744B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.91% (81,744B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.83% (78,144B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.83% (78,144B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.42% (317,280B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.76% (160,680B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.90% (81,336B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (81,336B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (79,320B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.86% (79,320B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.66% (156,576B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.84% (78,528B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.84% (78,528B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.82% (78,024B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.82% (78,024B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  7    152,200,412        4,819,584        2,891,752     1,927,832            0
+  8    183,105,969        5,714,224        3,428,536     2,285,688            0
+  9    206,282,092        6,377,024        3,826,216     2,550,808            0
+ 10    233,257,791        7,143,424        4,286,056     2,857,368            0
+ 11    263,048,124        7,981,864        4,789,120     3,192,744            0
+ 12    287,869,861        8,675,344        5,205,208     3,470,136            0
+ 13    305,246,825        9,159,784        5,495,872     3,663,912            0
+ 14    335,034,196        9,985,144        5,991,088     3,994,056            0
+60.00% (5,991,088B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (5,991,072B) 0x40079F: _addNode (bst.c:130)
+| ->30.05% (3,000,048B) 0x40081D: _addNode (bst.c:138)
+| | ->15.03% (1,500,408B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.52% (750,912B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (376,056B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.89% (188,904B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (188,904B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (187,128B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (187,128B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (374,832B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (188,232B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (188,232B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (186,576B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (186,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.51% (749,472B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.76% (375,912B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (188,208B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (188,208B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (187,680B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (187,680B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (373,536B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (186,792B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (186,792B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (186,720B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (186,720B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->15.02% (1,499,616B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.52% (750,768B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (376,800B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.92% (191,904B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (191,904B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (184,872B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (184,872B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (373,944B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (186,984B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (186,984B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (186,936B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (186,936B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.50% (748,824B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.76% (375,600B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (188,328B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (188,328B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (187,248B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (187,248B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (373,200B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (186,816B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (186,816B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (186,360B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (186,360B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->29.95% (2,991,000B) 0x40083E: _addNode (bst.c:140)
+| | ->15.00% (1,497,432B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.52% (750,720B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.78% (377,856B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (189,096B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (189,096B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (188,736B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (188,736B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (372,840B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (186,960B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (186,960B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (185,856B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (185,856B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.48% (746,688B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.74% (373,368B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (187,680B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (187,680B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (185,664B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (185,664B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (373,296B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (187,608B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (187,608B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (185,664B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (185,664B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.96% (1,493,544B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.48% (747,360B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.75% (374,256B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (187,776B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (187,776B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (186,456B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (186,456B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (373,080B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.90% (190,080B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (190,080B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.83% (182,976B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.83% (182,976B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.47% (746,160B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.74% (373,752B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (187,224B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (187,224B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (186,504B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (186,504B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (372,384B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (186,864B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (186,864B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (185,496B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (185,496B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 15    359,866,383       10,667,984        6,400,792     4,267,192            0
+60.00% (6,400,792B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (6,400,776B) 0x40079F: _addNode (bst.c:130)
+| ->30.04% (3,204,552B) 0x40081D: _addNode (bst.c:138)
+| | ->15.03% (1,603,128B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.53% (803,184B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (401,928B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (201,144B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (201,144B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (200,760B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (200,760B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.76% (401,232B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.89% (201,960B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (201,960B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (199,248B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (199,248B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.50% (799,920B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.76% (401,184B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (200,640B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (200,640B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (200,520B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (200,520B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (398,712B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (200,112B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (200,112B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (198,576B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.86% (198,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->15.01% (1,601,400B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.51% (800,808B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (401,736B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.92% (204,576B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (204,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (197,136B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (197,136B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (399,048B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (199,752B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (199,752B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (199,272B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (199,272B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.50% (800,568B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.77% (402,264B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (201,504B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (201,504B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (200,736B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (200,736B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (398,280B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (199,176B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (199,176B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (199,080B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (199,080B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->29.96% (3,196,200B) 0x40083E: _addNode (bst.c:140)
+| | ->15.01% (1,601,496B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.53% (802,920B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.78% (403,056B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (201,528B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (201,528B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (201,504B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (201,504B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (399,840B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (200,808B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (200,808B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (199,008B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (199,008B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.49% (798,552B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.75% (399,816B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (201,048B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (201,048B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (198,744B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (198,744B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (398,712B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (200,736B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (200,736B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (197,952B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (197,952B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.95% (1,594,680B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.49% (798,504B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.74% (399,312B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (199,848B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (199,848B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (199,440B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (199,440B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (399,168B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.90% (203,040B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (203,040B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (196,104B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.84% (196,104B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.46% (796,152B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.73% (398,256B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (199,488B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (199,488B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (198,744B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (198,744B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (397,872B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (199,632B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (199,632B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (198,216B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (198,216B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 16    387,186,703       11,416,264        6,849,760     4,566,504            0
+ 17    402,087,656       11,823,224        7,093,936     4,729,288            0
+ 18    421,958,105       12,364,104        7,418,464     4,945,640            0
+ 19    436,857,693       12,768,624        7,661,176     5,107,448            0
+ 20    894,510,078       12,800,024        7,680,016     5,120,008            0
+60.00% (7,680,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (7,680,000B) 0x40079F: _addNode (bst.c:130)
+| ->30.05% (3,846,624B) 0x40081D: _addNode (bst.c:138)
+| | ->15.03% (1,923,984B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.53% (963,624B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (483,024B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (241,680B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (241,680B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (241,320B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (241,320B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (480,576B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.89% (242,496B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (242,496B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (238,056B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (238,056B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.50% (960,336B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.75% (480,360B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.89% (241,824B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (241,824B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (238,512B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.86% (238,512B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (479,952B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (240,360B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (240,360B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (239,568B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (239,568B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->15.02% (1,922,616B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.51% (961,560B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.78% (483,552B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (241,848B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (241,848B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (241,680B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (241,680B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (477,984B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (239,232B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (239,232B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (238,728B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (238,728B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.51% (961,032B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (482,040B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.91% (244,200B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.91% (244,200B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (237,816B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (237,816B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (478,968B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (239,784B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (239,784B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (239,160B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (239,160B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->29.95% (3,833,352B) 0x40083E: _addNode (bst.c:140)
+| | ->14.98% (1,917,120B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.49% (959,040B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.75% (479,640B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.90% (242,880B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (242,880B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (236,736B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (236,736B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (479,376B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (239,808B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (239,808B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (239,544B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (239,544B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.48% (958,056B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.74% (479,352B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (240,552B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (240,552B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (238,776B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (238,776B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (478,680B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (240,216B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (240,216B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (238,440B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (238,440B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.97% (1,916,208B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.50% (960,120B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.77% (481,992B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (241,368B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (241,368B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (240,600B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (240,600B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (478,104B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (241,176B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (241,176B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (236,904B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (236,904B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.47% (956,064B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.74% (478,536B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (239,328B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (239,328B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (239,184B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (239,184B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (477,504B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (240,480B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (240,480B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (237,000B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (237,000B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 21    914,385,859       12,479,144        7,487,488     4,991,656            0
+ 22    944,197,020       12,065,584        7,239,352     4,826,232            0
+ 23    954,139,472       11,934,824        7,160,896     4,773,928            0
+ 24    978,984,492       11,618,024        6,970,816     4,647,208            0
+ 25  1,008,804,581       11,255,824        6,753,496     4,502,328            0
+ 26  1,023,713,416       11,081,704        6,649,024     4,432,680            0
+60.00% (6,649,024B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (6,649,008B) 0x40079F: _addNode (bst.c:130)
+| ->32.92% (3,648,312B) 0x40081D: _addNode (bst.c:138)
+| | ->16.47% (1,825,440B) 0x40081D: _addNode (bst.c:138)
+| | | ->08.25% (914,376B) 0x40081D: _addNode (bst.c:138)
+| | | | ->04.13% (457,656B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.07% (228,936B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.03% (114,576B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (114,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.03% (114,336B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.03% (114,336B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.06% (228,696B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.04% (115,392B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (115,392B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.02% (113,304B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.02% (113,304B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.12% (456,696B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.08% (230,424B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.05% (115,992B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.05% (115,992B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.03% (114,408B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.03% (114,408B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.04% (226,248B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.02% (113,424B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.02% (113,424B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.02% (112,800B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.02% (112,800B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->08.22% (911,040B) 0x40083E: _addNode (bst.c:140)
+| | | | ->04.12% (456,024B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.07% (229,056B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.04% (114,768B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (114,768B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.03% (114,264B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (114,264B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.05% (226,944B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.04% (115,392B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (115,392B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (111,528B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (111,528B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.11% (454,992B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.06% (228,600B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.05% (116,424B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.05% (116,424B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (112,152B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (112,152B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.04% (226,368B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.02% (113,232B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.02% (113,232B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.02% (113,112B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.02% (113,112B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->16.45% (1,822,848B) 0x40083E: _addNode (bst.c:140)
+| | | ->08.23% (911,664B) 0x40083E: _addNode (bst.c:140)
+| | | | ->04.13% (457,128B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.06% (228,576B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.04% (114,864B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (114,864B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.03% (113,688B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.03% (113,688B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.06% (228,528B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.04% (115,440B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (115,440B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.02% (113,064B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.02% (113,064B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.10% (454,512B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.06% (228,216B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.03% (114,168B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (114,168B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.03% (114,024B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.03% (114,024B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.04% (226,272B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.03% (114,024B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (114,024B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (112,224B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (112,224B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->08.22% (911,160B) 0x40081D: _addNode (bst.c:138)
+| | | | ->04.13% (457,176B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.09% (231,912B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.06% (116,928B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.06% (116,928B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (114,960B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (114,960B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.03% (225,240B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.02% (113,280B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.02% (113,280B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (111,936B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (111,936B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.10% (453,960B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.05% (227,376B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.04% (115,248B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (115,248B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (112,104B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (112,104B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.04% (226,560B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.03% (114,408B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (114,408B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (112,128B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (112,128B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->27.08% (3,000,672B) 0x40083E: _addNode (bst.c:140)
+| | ->15.07% (1,670,400B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.55% (836,544B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.79% (420,504B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.90% (210,408B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (210,408B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.90% (210,072B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (210,072B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (416,016B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.89% (209,928B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (209,928B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (206,064B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (206,064B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.52% (833,832B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (417,984B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (209,040B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (209,040B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (208,920B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (208,920B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (415,824B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.89% (209,808B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (209,808B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (205,992B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (205,992B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->12.00% (1,330,248B) 0x40083E: _addNode (bst.c:140)
+| | | ->06.67% (739,296B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.34% (369,720B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.67% (185,496B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.67% (185,496B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.66% (184,200B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.66% (184,200B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.33% (369,552B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.68% (186,624B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.68% (186,624B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.65% (182,904B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.65% (182,904B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->05.33% (590,928B) 0x40083E: _addNode (bst.c:140)
+| | | | ->02.91% (322,440B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.46% (161,520B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.46% (161,520B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.45% (160,896B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.45% (160,896B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->02.42% (268,464B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.30% (143,520B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.30% (143,520B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.13% (124,920B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.13% (124,920B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 27  1,043,589,997       10,853,944        6,512,368     4,341,576            0
+ 28  1,063,462,243       10,632,344        6,379,408     4,252,936            0
+ 29  1,088,306,448       10,363,824        6,218,296     4,145,528            0
+ 30  1,113,150,783       10,103,184        6,061,912     4,041,272            0
+ 31  1,142,960,289        9,800,984        5,880,592     3,920,392            0
+ 32  1,162,833,988        9,601,464        5,760,880     3,840,584            0
+ 33  1,188,600,408        9,349,064        5,609,440     3,739,624            0
+ 34  1,222,955,489        9,026,224        5,415,736     3,610,488            0
+ 35  1,248,723,700        8,788,704        5,273,224     3,515,480            0
+ 36  1,274,491,985        8,558,984        5,135,392     3,423,592            0
+ 37  1,291,676,702        8,406,144        5,043,688     3,362,456            0
+ 38  1,317,445,067        8,182,104        4,909,264     3,272,840            0
+ 39  1,334,621,215        8,036,424        4,821,856     3,214,568            0
+ 40  1,360,384,172        7,820,184        4,692,112     3,128,072            0
+ 41  1,386,163,914        7,604,864        4,562,920     3,041,944            0
+ 42  1,403,348,311        7,467,104        4,480,264     2,986,840            0
+ 43  1,437,701,959        7,191,784        4,315,072     2,876,712            0
+60.00% (4,315,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (4,315,056B) 0x40079F: _addNode (bst.c:130)
+| ->33.36% (2,399,184B) 0x40081D: _addNode (bst.c:138)
+| | ->16.69% (1,200,384B) 0x40083E: _addNode (bst.c:140)
+| | | ->08.35% (600,744B) 0x40083E: _addNode (bst.c:140)
+| | | | ->04.22% (303,696B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.12% (152,280B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.06% (76,128B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.06% (76,128B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.06% (76,128B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.06% (76,128B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.11% (151,392B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.06% (76,464B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.06% (76,464B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (74,904B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (74,904B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.13% (297,024B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.08% (149,688B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.04% (75,096B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (75,096B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (74,568B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (74,568B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.05% (147,312B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.03% (74,376B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (74,376B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (72,912B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (72,912B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->08.34% (599,616B) 0x40081D: _addNode (bst.c:138)
+| | | | ->04.17% (299,880B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.11% (151,512B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.07% (76,968B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.07% (76,968B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (74,520B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (74,520B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.06% (148,344B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.03% (74,256B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (74,256B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.03% (74,064B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.03% (74,064B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.17% (299,712B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.10% (150,888B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.06% (76,032B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.06% (76,032B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (74,832B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (74,832B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.07% (148,800B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.04% (74,592B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (74,592B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.03% (74,184B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (74,184B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->16.67% (1,198,776B) 0x40081D: _addNode (bst.c:138)
+| | | ->08.37% (601,608B) 0x40081D: _addNode (bst.c:138)
+| | | | ->04.20% (301,920B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.11% (151,392B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.05% (75,792B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.05% (75,792B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.05% (75,600B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.05% (75,600B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.09% (150,504B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.05% (75,504B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.05% (75,504B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (74,976B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (74,976B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.17% (299,664B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.10% (151,320B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.06% (76,200B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.06% (76,200B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (75,096B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (75,096B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.06% (148,320B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.04% (74,760B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.04% (74,760B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.02% (73,536B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.02% (73,536B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->08.30% (597,144B) 0x40083E: _addNode (bst.c:140)
+| | | | ->04.17% (299,784B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.10% (150,720B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.05% (75,720B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.05% (75,720B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.04% (74,976B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.04% (74,976B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.07% (149,040B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.05% (75,744B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.05% (75,744B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.02% (73,272B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.02% (73,272B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->04.13% (297,336B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.08% (149,280B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.05% (75,720B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.05% (75,720B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.02% (73,536B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.02% (73,536B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.06% (148,032B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.05% (75,432B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.05% (75,432B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (72,576B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (72,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->26.64% (1,915,848B) 0x40083E: _addNode (bst.c:140)
+| | ->13.92% (1,000,896B) 0x40081D: _addNode (bst.c:138)
+| | | ->06.96% (500,664B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.51% (252,528B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.78% (127,728B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.78% (127,728B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.73% (124,776B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.73% (124,776B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.45% (248,112B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.74% (125,304B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.74% (125,304B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.71% (122,784B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.71% (122,784B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.96% (500,208B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.49% (251,112B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.76% (126,360B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.76% (126,360B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.73% (124,728B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.73% (124,728B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.46% (249,072B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.74% (125,472B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.74% (125,472B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.72% (123,576B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.72% (123,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->12.72% (914,928B) 0x40083E: _addNode (bst.c:140)
+| | | ->06.44% (463,392B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.23% (232,296B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.63% (117,120B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.63% (117,120B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.60% (115,152B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.60% (115,152B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.21% (231,072B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.62% (116,592B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.62% (116,592B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.59% (114,456B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.59% (114,456B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.28% (451,512B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.16% (227,520B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.58% (113,880B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.58% (113,880B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.58% (113,616B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.58% (113,616B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.11% (223,968B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.58% (113,544B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.58% (113,544B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.54% (110,400B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.54% (110,400B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 44  1,454,887,313        7,057,544        4,234,528     2,823,016            0
+ 45  1,489,250,811        6,790,304        4,074,184     2,716,120            0
+ 46  1,515,015,683        6,592,984        3,955,792     2,637,192            0
+ 47  1,532,193,320        6,462,824        3,877,696     2,585,128            0
+ 48  1,566,547,803        6,205,504        3,723,304     2,482,200            0
+ 49  1,592,330,485        6,014,584        3,608,752     2,405,832            0
+ 50  1,602,277,093        5,942,904        3,565,744     2,377,160            0
+ 51  1,612,226,291        5,869,784        3,521,872     2,347,912            0
+60.00% (3,521,872B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (3,521,856B) 0x40079F: _addNode (bst.c:130)
+| ->31.60% (1,854,744B) 0x40081D: _addNode (bst.c:138)
+| | ->15.80% (927,576B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.91% (464,136B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.98% (233,760B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.01% (118,224B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.01% (59,160B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.01% (59,160B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.01% (59,040B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.01% (59,040B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->01.97% (115,512B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.97% (115,512B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.92% (230,352B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.97% (115,584B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.97% (115,584B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.95% (114,744B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.95% (114,744B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.89% (463,416B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.96% (232,536B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.00% (117,288B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.03% (60,480B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.03% (60,480B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.97% (56,808B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->01.96% (115,224B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.96% (115,224B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.93% (230,856B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.99% (116,808B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.01% (59,016B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.01% (59,016B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.98% (57,792B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->01.94% (114,024B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.94% (114,024B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->15.80% (927,144B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.93% (465,216B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.97% (232,920B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.99% (116,808B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.99% (116,808B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.98% (116,088B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.98% (116,088B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.96% (232,272B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->02.00% (117,216B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.00% (58,800B) 0x40083E: _addNode (bst.c:140)
+| | | | | | | ->01.00% (58,800B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.00% (58,416B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->01.96% (115,032B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.96% (115,032B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.87% (461,904B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.97% (232,848B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->02.00% (117,552B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.00% (58,872B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.00% (58,872B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->01.00% (58,680B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->01.96% (115,272B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.01% (59,208B) 0x40081D: _addNode (bst.c:138)
+| | | | | | | ->01.01% (59,208B) in 3 places, all below massif's threshold (01.00%)
+| | | | | | |   
+| | | | | | ->00.96% (56,064B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.90% (229,032B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.96% (114,792B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.96% (114,792B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.95% (114,216B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.95% (114,216B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->28.40% (1,667,088B) 0x40083E: _addNode (bst.c:140)
+| | ->14.41% (845,832B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.23% (424,176B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.61% (212,160B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.83% (107,184B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.83% (107,184B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.79% (104,952B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.79% (104,952B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.61% (211,992B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.82% (106,848B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.82% (106,848B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.79% (105,120B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.79% (105,120B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.18% (421,632B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.60% (211,536B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.82% (106,728B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.82% (106,728B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.79% (104,784B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.79% (104,784B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.58% (210,072B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.82% (106,584B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.82% (106,584B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.76% (103,464B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.76% (103,464B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.99% (821,232B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.00% (411,000B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.51% (206,304B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.76% (103,512B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.76% (103,512B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.75% (102,768B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.75% (102,768B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.49% (204,672B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.77% (103,680B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.77% (103,680B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.72% (100,968B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.72% (100,968B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.99% (410,208B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.51% (206,280B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.78% (104,328B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.78% (104,328B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.74% (101,928B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.74% (101,928B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.47% (203,904B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.77% (103,800B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.77% (103,800B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.71% (100,080B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.71% (100,080B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 52  1,622,174,542        5,797,984        3,478,792     2,319,192            0
+ 53  1,632,117,212        5,727,984        3,436,792     2,291,192            0
+ 54  1,642,067,555        5,654,584        3,392,752     2,261,832            0
+ 55  1,652,011,110        5,581,184        3,348,712     2,232,472            0
+ 56  1,661,962,243        5,511,224        3,306,736     2,204,488            0
+ 57  1,671,905,710        5,437,224        3,262,336     2,174,888            0
+ 58  1,681,854,527        5,365,824        3,219,496     2,146,328            0
+ 59  1,691,798,753        5,292,984        3,175,792     2,117,192            0
+ 60  1,701,742,418        5,219,864        3,131,920     2,087,944            0
+ 61  1,711,687,175        5,146,504        3,087,904     2,058,600            0
+60.00% (3,087,904B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (3,087,888B) 0x40079F: _addNode (bst.c:130)
+| ->30.60% (1,574,760B) 0x40081D: _addNode (bst.c:138)
+| | ->15.31% (787,944B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.66% (394,416B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.84% (197,736B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.94% (99,984B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.94% (99,984B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.90% (97,728B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (97,728B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.82% (196,656B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.92% (98,832B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (98,832B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.90% (97,800B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (97,800B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.65% (393,504B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.85% (198,192B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.96% (100,920B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.96% (100,920B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (97,248B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (97,248B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.79% (195,288B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.90% (97,704B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (97,704B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.90% (97,560B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (97,560B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->15.29% (786,792B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.66% (394,056B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.87% (199,128B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.95% (100,392B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.95% (100,392B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.92% (98,712B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (98,712B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.79% (194,904B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.90% (97,656B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (97,656B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (97,224B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.89% (97,224B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.63% (392,712B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.82% (196,368B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.93% (99,432B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.93% (99,432B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (96,912B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (96,912B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.81% (196,320B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.92% (98,568B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (98,568B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.90% (97,728B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (97,728B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->29.40% (1,513,104B) 0x40083E: _addNode (bst.c:140)
+| | ->14.80% (761,568B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.40% (380,856B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.71% (190,968B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (96,576B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (96,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.83% (94,368B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.83% (94,368B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.69% (189,864B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (96,072B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (96,072B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.82% (93,768B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.82% (93,768B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.40% (380,688B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.71% (190,872B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.87% (96,144B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (96,144B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (94,704B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.84% (94,704B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.69% (189,792B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.86% (95,904B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.86% (95,904B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.82% (93,864B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.82% (93,864B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.60% (751,512B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.33% (377,112B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.68% (189,648B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.85% (95,088B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (95,088B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (94,536B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.84% (94,536B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.64% (187,440B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.84% (94,728B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.84% (94,728B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.80% (92,688B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.80% (92,688B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.27% (374,376B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.66% (188,112B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.86% (95,808B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (95,808B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.79% (92,280B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.79% (92,280B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.62% (186,240B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.84% (94,824B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.84% (94,824B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.78% (91,392B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.78% (91,392B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 62  1,721,634,090        5,072,984        3,043,792     2,029,192            0
+ 63  1,731,579,671        4,998,344        2,999,008     1,999,336            0
+ 64  1,741,527,083        4,925,184        2,955,112     1,970,072            0
+ 65  1,751,473,459        4,849,424        2,909,656     1,939,768            0
+ 66  1,761,419,208        4,774,624        2,864,776     1,909,848            0
+ 67  1,771,362,123        4,698,384        2,819,032     1,879,352            0
+ 68  1,781,314,213        4,617,144        2,770,288     1,846,856            0
+ 69  1,791,258,815        4,537,304        2,722,384     1,814,920            0
+ 70  1,801,201,692        4,450,744        2,670,448     1,780,296            0
+ 71  1,811,144,883        4,361,344        2,616,808     1,744,536            0
+60.00% (2,616,808B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (2,616,792B) 0x40079F: _addNode (bst.c:130)
+| ->30.03% (1,309,584B) 0x40081D: _addNode (bst.c:138)
+| | ->15.04% (655,968B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.54% (328,848B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.82% (166,728B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.94% (84,480B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.94% (84,480B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.89% (82,224B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (82,224B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.72% (162,096B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (81,816B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (81,816B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (80,256B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.84% (80,256B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.50% (327,096B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.77% (164,304B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.92% (83,736B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (83,736B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (80,544B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (80,544B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (162,768B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.88% (82,032B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (82,032B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (80,712B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (80,712B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.99% (653,592B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.49% (326,832B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.76% (164,088B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.91% (83,352B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.91% (83,352B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (80,712B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (80,712B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (162,720B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (81,432B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (81,432B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (81,264B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.86% (81,264B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.49% (326,736B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.75% (163,752B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.90% (82,824B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (82,824B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (80,904B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (80,904B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.74% (162,960B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (82,320B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (82,320B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (80,616B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (80,616B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->29.97% (1,307,184B) 0x40083E: _addNode (bst.c:140)
+| | ->15.06% (656,880B) 0x40081D: _addNode (bst.c:138)
+| | | ->07.55% (329,064B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.79% (165,360B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.92% (83,544B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (83,544B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (81,792B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (81,792B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.75% (163,680B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.90% (82,944B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.90% (82,944B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.85% (80,712B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.85% (80,712B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.52% (327,792B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.79% (165,120B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.92% (83,736B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.92% (83,736B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.87% (81,360B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.87% (81,360B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.73% (162,648B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (81,576B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (81,576B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.86% (81,048B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.86% (81,048B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->14.91% (650,280B) 0x40083E: _addNode (bst.c:140)
+| | | ->07.49% (326,448B) 0x40083E: _addNode (bst.c:140)
+| | | | ->03.77% (164,568B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.89% (82,632B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.89% (82,632B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.88% (81,912B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.88% (81,912B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.71% (161,856B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.87% (81,432B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.87% (81,432B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.84% (80,400B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.84% (80,400B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->07.42% (323,808B) 0x40081D: _addNode (bst.c:138)
+| | | | ->03.73% (162,840B) 0x40081D: _addNode (bst.c:138)
+| | | | | ->01.90% (82,992B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.90% (82,992B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.83% (79,824B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.83% (79,824B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.69% (160,944B) 0x40083E: _addNode (bst.c:140)
+| | | | | ->01.88% (82,008B) 0x40081D: _addNode (bst.c:138)
+| | | | | | ->01.88% (82,008B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->01.81% (78,912B) 0x40083E: _addNode (bst.c:140)
+| | | | | | ->01.81% (78,912B) in 3 places, all below massif's threshold (01.00%)
+| | | | | |   
+| | | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (24B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 72  1,821,087,415        4,260,224        2,556,136     1,704,088            0
